@@ -1,0 +1,191 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 56244,
+      "max": [
+        0.4635330140590668,
+        10.155477523803711,
+        1.4105230569839478
+      ],
+      "min": [
+        -0.7806829810142517,
+        7.364387035369873,
+        -1.012017011642456
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 674928,
+      "componentType": 5126,
+      "count": 56244,
+      "max": [
+        0.9999932646751404,
+        0.9999596476554871,
+        0.9998801350593567
+      ],
+      "min": [
+        -0.9999966621398926,
+        -0.9999264478683472,
+        -0.9999353289604187
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 56244,
+      "max": [
+        0.9958919882774353,
+        0.9999189972877502
+      ],
+      "min": [
+        0.00329799996688962,
+        0.0026759998872876167
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 300000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/baboon-moon-god-thoth-ae5278be3e5845a0987ddec061a1c362",
+      "title": "Baboon (Moon God Thoth)"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1200000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 449952,
+      "byteOffset": 1200000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1349856,
+      "byteOffset": 1649952,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2999808,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/170726_mia348_126884_601_100kmesh_OBJ_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "170726_mia348_126884_601_100kmesh_OBJ",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.06862557812318926,
+        -3.4345707861721755e-18,
+        0.015467931712782601,
+        0.0,
+        0.009453786693107702,
+        -0.05567887639863046,
+        0.04194301071120064,
+        0.0,
+        0.012242664438808504,
+        0.042995232123708135,
+        0.05431624157690607,
+        0.0,
+        -1.5251717567443848,
+        7.010844230651859,
+        -14.10183525085449,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "170726_mia348_126884_601_100kmesh_OBJ.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
