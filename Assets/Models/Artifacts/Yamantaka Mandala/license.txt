@@ -1,0 +1,11 @@
+Model Information:
+* title:	Yamantaka Mandala, 1991
+* source:	https://sketchfab.com/3d-models/yamantaka-mandala-1991-9ec9a60a7ded457ea699b2f758c93dae
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Yamantaka Mandala, 1991" (https://sketchfab.com/3d-models/yamantaka-mandala-1991-9ec9a60a7ded457ea699b2f758c93dae) by Minneapolis Institute of Art (https://sketchfab.com/artsmia) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
