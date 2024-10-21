@@ -235,7 +235,7 @@ GameObject:
   m_Layer: 0
   m_Name: Origin
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -883,6 +883,7 @@ Transform:
   - {fileID: 8529508752620900197}
   - {fileID: 7425820692860427448}
   - {fileID: 2503310610871302618}
+  - {fileID: 5817987916340707578}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1252492189 stripped
@@ -1408,6 +1409,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8192385337752026139, guid: f5926197e6608e941893a83175e08211,
     type: 3}
   m_PrefabInstance: {fileID: 4714041802033104223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5817987916340707577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1225259881}
+    m_Modifications:
+    - target: {fileID: 6911376159543528687, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_Name
+      value: Olive Tree Painting
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.0006905
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.99846256
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.990542
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efba7902d287e4543b48500e3ab73949, type: 3}
+--- !u!4 &5817987916340707578 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9195045641662717257, guid: efba7902d287e4543b48500e3ab73949,
+    type: 3}
+  m_PrefabInstance: {fileID: 5817987916340707577}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7425820692860427447
 PrefabInstance:
