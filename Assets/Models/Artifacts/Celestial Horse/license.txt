@@ -1,0 +1,11 @@
+Model Information:
+* title:	Celestial Horse, 25-220 CE
+* source:	https://sketchfab.com/3d-models/celestial-horse-25-220-ce-77b50ac404e1420f9ecb8556d07d8e28
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Celestial Horse, 25-220 CE" (https://sketchfab.com/3d-models/celestial-horse-25-220-ce-77b50ac404e1420f9ecb8556d07d8e28) by Minneapolis Institute of Art (https://sketchfab.com/artsmia) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

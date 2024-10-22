@@ -1,0 +1,8 @@
+Model Information:
+* title:	Netsuke - Shoki capturing an oni
+* source:	https://sketchfab.com/3d-models/netsuke-shoki-capturing-an-oni-350423d0c7d045a7bd89b1814772399d
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.

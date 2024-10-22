@@ -1,0 +1,213 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 30943,
+      "max": [
+        -0.2105170041322708,
+        8.893445014953613,
+        -0.338685005903244
+      ],
+      "min": [
+        -0.7352529764175415,
+        8.245691299438477,
+        -1.0097359418869019
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 371316,
+      "componentType": 5126,
+      "count": 30943,
+      "max": [
+        0.9999361038208008,
+        0.999879777431488,
+        0.9999826550483704
+      ],
+      "min": [
+        -0.9999593496322632,
+        -0.9999813437461853,
+        -0.9999087452888489
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 30943,
+      "max": [
+        0.9961109757423401,
+        0.999114990234375
+      ],
+      "min": [
+        0.0038640000857412815,
+        0.0033829999156296253
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 150000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/netsuke-shoki-capturing-an-oni-350423d0c7d045a7bd89b1814772399d",
+      "title": "Netsuke - Shoki capturing an oni"
+    },
+    "generator": "Sketchfab-14.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 600000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 247544,
+      "byteOffset": 600000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 742632,
+      "byteOffset": 847544,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1590176,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/mia329_030519_501_100Kmesh_OBJ_mia329_030519_501_100Kmesh_OBJ_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/mia329_030519_501_100Kmesh_OBJ_mia329_030519_501_100Kmesh_OBJ_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.1358612805
+        }
+      },
+      "name": "mia329_030519_501_100Kmesh_OBJ_mia329_030519_501_100Kmesh_OBJ",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.4733195840495732,
+        0.007950422542464104,
+        0.1695085534660805,
+        0.0,
+        -0.16952974253726794,
+        1.0511120320468158e-16,
+        -0.47337877558506847,
+        0.0,
+        -0.007484910149616608,
+        -0.502756988215662,
+        0.002680548625698775,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "171218_mia329_030519_501_50Kmesh_OBJ.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
