@@ -1,0 +1,333 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.09784799814224243,
+        -0.0033209999091923237,
+        0.09249799698591232
+      ],
+      "min": [
+        -0.0702819973230362,
+        -0.19846999645233154,
+        -0.06975200027227402
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786396,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.9998843669891357,
+        0.9977344870567322,
+        0.9998053908348083
+      ],
+      "min": [
+        -0.9997639060020447,
+        -0.9999971389770508,
+        -0.9999558925628662
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.9999982118606567,
+        0.9999904632568359,
+        0.9999509453773499,
+        1.0
+      ],
+      "min": [
+        -0.9992139935493469,
+        -0.9998695254325867,
+        -0.9998615384101868,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.9934719800949097,
+        0.9996340274810791
+      ],
+      "min": [
+        0.0003769999893847853,
+        0.00037900000461377203
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 105654,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572792,
+      "componentType": 5126,
+      "count": 58509,
+      "max": [
+        0.09791400283575058,
+        -0.00279600010253489,
+        0.09432999789714813
+      ],
+      "min": [
+        -0.07121700048446655,
+        -0.1985750049352646,
+        -0.06977999955415726
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2274900,
+      "componentType": 5126,
+      "count": 58509,
+      "max": [
+        0.9999309778213501,
+        0.9999961853027344,
+        0.9998032450675964
+      ],
+      "min": [
+        -0.9999654293060303,
+        -0.9999918937683105,
+        -0.9996170401573181
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048528,
+      "componentType": 5126,
+      "count": 58509,
+      "max": [
+        0.9999635219573975,
+        0.9999963641166687,
+        0.9999442100524902,
+        1.0
+      ],
+      "min": [
+        -0.9999657273292542,
+        -0.9998903274536133,
+        -0.9999986886978149,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524264,
+      "componentType": 5126,
+      "count": 58509,
+      "max": [
+        0.9934719800949097,
+        0.9996340274810791
+      ],
+      "min": [
+        0.0003659999929368496,
+        0.0003659999929368496
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 422616,
+      "componentType": 5125,
+      "count": 89316,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cleveland Museum of Art (https://sketchfab.com/clevelandart)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/197969-red-figure-janiform-kantharos-f39e9d28558b45b5abc505f76afebc23",
+      "title": "1979.69 Red-Figure Janiform Kantharos"
+    },
+    "generator": "Sketchfab-16.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 779880,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 992336,
+      "byteOffset": 779880,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2977008,
+      "byteOffset": 1772216,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1984672,
+      "byteOffset": 4749224,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6733896,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/1979.69_Kantharos_Mats_baseColor.png"
+    },
+    {
+      "uri": "textures/1979.69_Kantharos_Mats_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/1979.69_Kantharos_Mats_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "1979.69_Kantharos_Mats",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.7981976866722107,
+        1.337587049398504e-16,
+        -0.6023956537246704,
+        0.0,
+        -1.1102230246251565e-16,
+        -1.0,
+        -4.3021142204224816e-16,
+        0.0,
+        -0.6023956537246704,
+        4.2703567052986517e-16,
+        -0.7981976866722107,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "1979.69 Kantharos.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
