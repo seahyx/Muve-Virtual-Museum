@@ -26,18 +26,18 @@ ScriptedImporter:
     sceneObjectCreation: 2
   assetDependencies:
   - type: 0
-    originalUri: Assets\Models\Artifacts\Avalokiteshvara Bodhisattva in the Water-Moon
-      Form (Shuiyue Guanyin)\scene.bin
-    assetPath: Assets\Models\Artifacts\Avalokiteshvara Bodhisattva in the Water-Moon
-      Form (Shuiyue Guanyin)\scene.bin
+    originalUri: Assets/Models/Artifacts/Avalokiteshvara Bodhisattva in the Water-Moon
+      Form (Shuiyue Guanyin)/scene.bin
+    assetPath: Assets/Models/Artifacts/Avalokiteshvara Bodhisattva in the Water-Moon
+      Form (Shuiyue Guanyin)/scene.bin
   - type: 1
-    originalUri: Assets\Models\Artifacts\Avalokiteshvara Bodhisattva in the Water-Moon
-      Form (Shuiyue Guanyin)\textures\170516_mia337_032122_600_200Kfaces_8192px_OBJ_baseColor.jpeg
-    assetPath: Assets\Models\Artifacts\Avalokiteshvara Bodhisattva in the Water-Moon
-      Form (Shuiyue Guanyin)\textures\170516_mia337_032122_600_200Kfaces_8192px_OBJ_baseColor.jpeg
+    originalUri: Assets/Models/Artifacts/Avalokiteshvara Bodhisattva in the Water-Moon
+      Form (Shuiyue Guanyin)/textures/170516_mia337_032122_600_200Kfaces_8192px_OBJ_baseColor.jpeg
+    assetPath: Assets/Models/Artifacts/Avalokiteshvara Bodhisattva in the Water-Moon
+      Form (Shuiyue Guanyin)/textures/170516_mia337_032122_600_200Kfaces_8192px_OBJ_baseColor.jpeg
   - type: 1
-    originalUri: Assets\Models\Artifacts\Avalokiteshvara Bodhisattva in the Water-Moon
-      Form (Shuiyue Guanyin)\textures\170516_mia337_032122_600_200Kfaces_8192px_OBJ_normal.png
-    assetPath: Assets\Models\Artifacts\Avalokiteshvara Bodhisattva in the Water-Moon
-      Form (Shuiyue Guanyin)\textures\170516_mia337_032122_600_200Kfaces_8192px_OBJ_normal.png
+    originalUri: Assets/Models/Artifacts/Avalokiteshvara Bodhisattva in the Water-Moon
+      Form (Shuiyue Guanyin)/textures/170516_mia337_032122_600_200Kfaces_8192px_OBJ_normal.png
+    assetPath: Assets/Models/Artifacts/Avalokiteshvara Bodhisattva in the Water-Moon
+      Form (Shuiyue Guanyin)/textures/170516_mia337_032122_600_200Kfaces_8192px_OBJ_normal.png
   reportItems: []

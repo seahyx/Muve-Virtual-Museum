@@ -554,7 +554,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1225259881}
     m_Modifications:
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
@@ -564,7 +564,7 @@ PrefabInstance:
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0000012
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
@@ -579,7 +579,7 @@ PrefabInstance:
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
@@ -589,7 +589,7 @@ PrefabInstance:
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
         type: 3}
@@ -616,6 +616,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3877e7388d2c45a58b5a9566815308c, type: 3}
+--- !u!4 &607970349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 83384378868472044, guid: f3877e7388d2c45a58b5a9566815308c,
+    type: 3}
+  m_PrefabInstance: {fileID: 607970348}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &629164858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1115,6 +1121,7 @@ Transform:
   - {fileID: 2584492455815728949}
   - {fileID: 2072978765453293619}
   - {fileID: 675641682}
+  - {fileID: 607970349}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1252492189 stripped
@@ -2452,4 +2459,3 @@ SceneRoots:
   - {fileID: 1091948090}
   - {fileID: 1225259881}
   - {fileID: 195100303}
-  - {fileID: 607970348}
