@@ -1,0 +1,8 @@
+Model Information:
+* title:	Thai water buffalo vessel, c. 1000 BCE
+* source:	https://sketchfab.com/3d-models/thai-water-buffalo-vessel-c-1000-bce-6865dfe0972f46f2ba133ebc9e993fd8
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.
