@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7323286858185915726}
   - component: {fileID: 7323286858184818574}
   - component: {fileID: 7323286858182911984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jail_Door_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

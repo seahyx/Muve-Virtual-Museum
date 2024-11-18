@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8599792117850171389}
   - component: {fileID: 8599792117851137341}
   - component: {fileID: 6682782169906084813}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Balcony_Railing
   m_TagString: Untagged
   m_Icon: {fileID: 0}

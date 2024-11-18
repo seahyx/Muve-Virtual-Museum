@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3261374397564369558}
   - component: {fileID: 3261374397565499478}
   - component: {fileID: 5402771835471976208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jail_Wall_broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7485583272657402099}
   - component: {fileID: 4613609178438126649}
   - component: {fileID: 8656927238323103413}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Portcullis_Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}

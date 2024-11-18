@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2642311626250748396}
   - component: {fileID: 2642311626251748140}
   - component: {fileID: 2642311626253688301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Door_Wooden_Round_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

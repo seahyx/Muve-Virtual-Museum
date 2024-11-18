@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8971399676816529624}
   - component: {fileID: 8971399676815563288}
   - component: {fileID: 8971399676813624615}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Door_Iron_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

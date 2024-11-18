@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5047755396129329431}
   - component: {fileID: 5047755396129329424}
   - component: {fileID: 1252190416321427289}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Balcony_Post
   m_TagString: Untagged
   m_Icon: {fileID: 0}

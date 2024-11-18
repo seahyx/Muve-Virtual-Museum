@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6322556187634454354}
   - component: {fileID: 6322556187635551634}
   - component: {fileID: 6322556187633357649}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DoorGate_Wooden_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

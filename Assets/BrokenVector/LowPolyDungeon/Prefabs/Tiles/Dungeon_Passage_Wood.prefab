@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6032219734507757571}
   - component: {fileID: 6032219734508757699}
   - component: {fileID: 1281190686801608499}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Dungeon_Passage_Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}

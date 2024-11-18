@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3949618021090240011}
   - component: {fileID: 3949618021089273035}
   - component: {fileID: 3949618021091473930}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jail_Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
