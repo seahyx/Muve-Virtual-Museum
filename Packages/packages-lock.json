@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.seahyx.xruitoolkit": {
+      "version": "https://github.com/seahyx/XR-UI-Toolkit.git?path=/Packages/com.seahyx.xruitoolkit",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.interaction.toolkit": "2.5.4"
+      },
+      "hash": "f9808abf47dd270c763fd0bffbe6617607594aaf"
+    },
     "com.unity.burst": {
       "version": "1.8.17",
       "depth": 1,

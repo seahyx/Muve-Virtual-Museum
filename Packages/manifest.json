@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.seahyx.xruitoolkit": "https://github.com/seahyx/XR-UI-Toolkit.git?path=/Packages/com.seahyx.xruitoolkit",
     "com.unity.cloud.gltfast": "6.8.0",
     "com.unity.collab-proxy": "2.5.1",
     "com.unity.ide.rider": "3.0.31",
