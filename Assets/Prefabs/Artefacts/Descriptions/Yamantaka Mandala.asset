@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
-  m_Name: artefact
+  m_Name: Yamantaka Mandala
   m_EditorClassIdentifier: 
   Title: Yamantaka Mandala
   Year: 1991

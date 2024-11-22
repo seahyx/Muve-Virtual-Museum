@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Vase
+  m_EditorClassIdentifier: 
+  Title: Vase
+  Year: 18th century
+  Origin: Unknown Artist, China
+  Material: Enamel, copper alloy
+  Description: "This vase derives from the bronze hu vessel but is made in cloisonn\xE9.
+    The cloisonn\xE9 technique reached China from Byzantium (present-day Istanbul)
+    between 1200 and 1400 CE, but Chinese artisans made it their own. The general
+    stylistic trend was toward bigger, more complicated and luxurious creations.
+    During the Qing dynasty reigns of emperors Kangxi (r. 1662\u20131722) and Qianlong
+    (r. 1736\u201395), cloisonn\xE9 was perfected and reached its artistic summit.
+    Colors were more delicate, and filigrees more flexible and fluent. Previously
+    used for religious paraphernalia, cloisonn\xE9 now embellished secular objects.
+    This vase is a typical product of the 1700s. Supported on a straight foot ring,
+    the globular body rises to a long, cylindrical neck and terminates in a lipped
+    rim. The vase is decorated in colored enamels on a turquoise ground. Surrounding
+    the neck are upright leaves; below on the shoulder is a band of interlocking
+    Ts. Farther down is an elaborate band of cloud patterns, each resembling the
+    head of a ruyi scepter, and a narrow frieze of small lotus scrolls. The main
+    body, below a band of C-scrolls, is decorated with scrolling, stylized lotuses.
+    The foot, base, and mouth rim are gilt."
+  MiniGameDescription: 

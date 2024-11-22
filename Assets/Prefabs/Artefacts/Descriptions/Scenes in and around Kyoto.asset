@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Scenes in and around Kyoto
+  m_EditorClassIdentifier: 
+  Title: Scenes in and around Kyoto
+  Year: early 17th century
+  Origin: Unknown Japanese, Japan
+  Material: Ink, color, and gold on paper
+  Description: "This screen shows a bird\u2019s-eye view of the city of Kyoto, the
+    capital of Japan for most of its early history. Many famous sites of Kyoto are
+    pictured. To orient yourself, look for the river that emerges in the middle of
+    the far right panel and then flows to the upper left. This is the Kamo River,
+    which flows north-south and bisects the city. It is crossed by several bridges\u2014the
+    Fifth Avenue Bridge, visible in the second panel from the right, and the Third
+    Avenue Bridge, in the upper part of the fourth panel from the right. \r\n\r\nAt
+    the very top of the second and third panels from the right is the famous Buddhist
+    temple Kiyomizudera, with its long staircase and high veranda. A group of people
+    gather there to admire blooming cherry trees below. At the far upper left of
+    the screen, look for Kamigamo Shrine near which an annual horse race is taking
+    place. In the middle panels, you can see a variety of large, colorful carts\u2014floats
+    for the annual Gion Festival Parade. Also look for a group of men near the bottom
+    of the second panel from the left. They wear decidedly non-Japanese clothing
+    and carry banners with white Christian crosses. Groups of locals gather in the
+    upper floors of buildings to examine these curious visitors, perhaps Portuguese,
+    moving through the streets of Japan\u2019s ancient capital."
+  MiniGameDescription: 

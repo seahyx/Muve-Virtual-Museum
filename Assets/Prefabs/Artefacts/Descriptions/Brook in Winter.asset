@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Brook in Winter
+  m_EditorClassIdentifier: 
+  Title: Brook in Winter
+  Year: 1914
+  Origin: E. Ambrose Webster, United States
+  Material: Oil on canvas
+  Description: "E. Ambrose Webster was thrilled by the effects of light and was an
+    attentive observer of nature. He was an influential teacher and spent a great
+    deal of time as part of the Provincetown art colony, working in the open air
+    among other artists and younger students. He was considered a leading modernist
+    in American during the 1910s and exhibited in the Armory Show, a massive 1913
+    exhibition that introduced modern European artists to Americans in a large number.
+    Brook in Winter shows Webster\u2019s careful observation of sunset effects on
+    a winter day. He added slashes of purple and searing orange through the trees
+    to give the feeling of the long rays of the sun transformed through the brittle
+    forest."
+  MiniGameDescription: 

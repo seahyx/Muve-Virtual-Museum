@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: The Dunes at Camiers
+  m_EditorClassIdentifier: 
+  Title: The Dunes at Camiers
+  Year: 1871
+  Origin: "Charles-Fran\xE7ois Daubigny"
+  Material: Oil on canvas
+  Description: Camiers is a small town on the coast of northwestern France. Daubigny
+    is known for sketching directly on his canvas, adding layers of paint to create
+    the final product. This sketch aesthetic is what helped bring about the Impressionist
+    movement.
+  MiniGameDescription: 

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Moai Kava
+  m_EditorClassIdentifier: 
+  Title: Moai Kavakava
+  Year: 19th century
+  Origin: Rapa Nui
+  Material: Wood
+  Description: "A mo\u2018ai kavakava is a small wooden figure of a style originated
+    by the Rapa Nui culture of Easter Island. \r\nEach figure resembles a standing,
+    slightly stooped, male human with an emaciated body.\r\nThe name mo\u2018ai kavakava
+    is formed from mo\u2018ai for the monumental monolithic human figures found on
+    Easter Island and the word kavakava meaning ribs. Little is known about the cultural
+    context of these figures although they are generally considered to be representations
+    of starving ancestors or demons. 19th century travelers reported that these figures
+    were worn hanging around the necks of men who took part in the ritual dances
+    during public ceremonies."
+  MiniGameDescription: 

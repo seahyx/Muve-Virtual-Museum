@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Fish Vessel
+  m_EditorClassIdentifier: 
+  Title: Vessel in the Form of a Fish
+  Year: c. 100 BCE - 600 CE
+  Origin: Nasca Artists, Peru
+  Material: Clay, Pigments
+  Description: Nazca artists are known for their bold, colorful designs. Although
+    they were acute observers of the world around them and depicted many plants and
+    animals in their work, they seemed concerned less with naturalism than with capturing
+    the spirit and liveliness of their subject matter. This fish is highly stylized,
+    with scales suggested by brush strokes, and gills through sweeping lines. It
+    is rounded and fat, attesting to flush times and an abundance of food. Fish were
+    a key component of the Nazca diet and were often shown in their art.
+  MiniGameDescription: 

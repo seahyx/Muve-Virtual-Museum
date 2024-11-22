@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Hu Wine Vessel
+  m_EditorClassIdentifier: 
+  Title: Hu Wine Vessel
+  Year: 5th Century BCE
+  Origin: Unknown Artist, China
+  Material: Bronze
+  Description: "This storage vessel is one of an important group of hunting-scene
+    hu. They show the influence of the nomadic art of China\u2019s northern frontier.
+    The four major bands depict men hunting birds, deer, boars, and tigers with spears,
+    knives, and bows. Panels on the vessel\u2019s shoulders show an archer shooting
+    from the back of a four-horse chariot with driver. These pictorial scenes of
+    human activity represent a revolutionary departure in bronze art. Previously,
+    during the Shang and Zhou periods, sacred symbols and stylized animals were formally
+    arranged with regard to hierarchy and strict symmetry. The subject here appears
+    secular rather than religious."
+  MiniGameDescription: 

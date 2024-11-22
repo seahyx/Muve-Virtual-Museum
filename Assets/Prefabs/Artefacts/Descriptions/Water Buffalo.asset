@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Water Buffalo
+  m_EditorClassIdentifier: 
+  Title: Ceremonial vessel in the form of a Water Buffalo
+  Year: 1000-300 BCE
+  Origin: Unknown Artist
+  Material: Earthenware with impressed designs
+  Description: Among the first domesticated animals in Thailand, the water buffalo
+    was instrumental to the plowing of rice fields and also a likely symbol of abundance
+    for the afterlife. These three vessels, including an exceptionally large one
+    in the form of a water buffalo, were found as a group in graves, where they had
+    been smashed as offerings over the bodies of the deceased. Now reconstructed,
+    they present important developments from the earlier ceramics seen at left, with
+    their use of multiple colors on a single vessel, incised and rope-marked patterns
+    for surface texture, and inventive forms gracefully standing on several feet.
+  MiniGameDescription: 

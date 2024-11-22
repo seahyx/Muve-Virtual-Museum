@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Baboon
+  m_EditorClassIdentifier: 
+  Title: "Baboon\_(Moon God Thoth)"
+  Year: 7th - 6th century BCE
+  Origin: Egypt
+  Material: Faience
+  Description: Monkeys were kept as costly pets by the elite in ancient Egypt, yet
+    their regal appearance and imposing presence also made them useful representations
+    of gods in the Egyptian religion. The baboon was usually associated with Thoth,
+    one of the moon gods. This animal has a hole in the crown that once held a lunar
+    disk sitting on top of a crescent moon, an attribute of Thoth. For a 2,600-year-old
+    artwork it is in remarkable condition, and though the animal is small in size,
+    its posture and expression command authority.
+  MiniGameDescription: 

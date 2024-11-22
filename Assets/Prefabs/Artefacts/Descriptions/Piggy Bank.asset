@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Piggy Bank
+  m_EditorClassIdentifier: 
+  Title: Piggy Bank
+  Year: 
+  Origin: Majapahit Dynasty, Java, Indonesia
+  Material: Terracotta
+  Description: "Do I look familiar to you? My round and exaggerated form makes me
+    perfect for storing precious coins, which could be inserted through the slot
+    (now closed) on the hump of my back. My fierce expression is a warning to scare
+    off any burglars, and the padlock and chain around my neck indicate my function
+    as a personal bank. Yes, I am a piggy bank\u2014a lucky one that has survived
+    intact for over 500 years! Usually we end up broken by people who want our coins.
+    The word for piggy bank in Eastern Java is tj\xE8l\xE8ngan, meaning \u2018wild
+    boar."
+  MiniGameDescription: 

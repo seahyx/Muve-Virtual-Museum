@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Red-Figure Janiform Kantharos
+  m_EditorClassIdentifier: 
+  Title: 'Red-Figure Janiform Kantharos (Two-Sided Head-Shaped Drinking Cup): Satyr
+    and African'
+  Year: 
+  Origin: Class K, Attic vase painters
+  Material: Ceramic
+  Description: Combining two mold-made faces beneath a pair of vertical handles and
+    a flaring, wheel-made lip, this unusual drinking cup is a variation of the kantharos,
+    a vessel favored by the wine god Dionysos. A snub nose and equine ears identify
+    the satyr, a relatively common type on such vessels. The glossy black face and
+    red hair on the other side are more unusual, apparently meant to show an older
+    African man, with white beard and eyebrows, and wrinkles around the eyes.
+  MiniGameDescription: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Shoki
+  m_EditorClassIdentifier: 
+  Title: "Sh\u014Dki capturing a demon with a hat"
+  Year: 19th century
+  Origin: Harumitsu, Japan
+  Material: Ivory
+  Description: "This is an ivory netsuke depicting Sh\u014Dki, a figure in Chinese
+    and Japanese mythology. Traditionally regarded as a vanquisher of ghosts and
+    evil beings, and reputedly able to command 80,000 demons, his image is often
+    painted on household gates as a guardian spirit, as well as in places of business
+    where high-value goods are involved."
+  MiniGameDescription: 

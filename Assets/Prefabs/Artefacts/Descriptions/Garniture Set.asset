@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Garniture Set
+  m_EditorClassIdentifier: 
+  Title: Garniture Set (one clock and 2 vases)
+  Year: c.1736
+  Origin: Unknown Artist
+  Material: Chinese hard-paste porcelain, gilt bronze, enameled metal
+  Description: "Did You Know?\r\nA set of vases and clock, connected visually by
+    the use of the same materials, often adorned a mantlepiece or the top of a large
+    piece of furniture, such as a commode or console, within a room.\r\nDescription\r\nThe
+    fascination with Chinese porcelain among aristocratic circles increased during
+    the reign of Louis XV. In reaction to the perceived excesses of elaborate naturalistic
+    ornament of the 1750s, mount makers increasingly turned to neoclassical designs,
+    known as Go\xFBt Grec (Greek taste) in the 1760s and 1770s. These beautifully
+    chased gilt-bronze mounts feature classical Greco-Roman motifs such as lion masks,
+    acanthus and laurel leaves, and pilasters."
+  MiniGameDescription: 
