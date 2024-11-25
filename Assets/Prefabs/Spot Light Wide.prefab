@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spot Light Wide
       objectReference: {fileID: 0}
+    - target: {fileID: 5878636924926501795, guid: e2715567218783249b8a3a36f4671c12,
+        type: 3}
+      propertyPath: m_AdditionalLightsShadowResolutionTier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8088405554013858004, guid: e2715567218783249b8a3a36f4671c12,
         type: 3}
       propertyPath: m_Range
@@ -80,8 +85,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8088405554013858004, guid: e2715567218783249b8a3a36f4671c12,
         type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088405554013858004, guid: e2715567218783249b8a3a36f4671c12,
+        type: 3}
       propertyPath: m_InnerSpotAngle
       value: 53.353737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088405554013858004, guid: e2715567218783249b8a3a36f4671c12,
+        type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: 128
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
