@@ -64,5 +64,19 @@ public class PlayerSettings : MonoBehaviour
 		}
 	}
 
+	private const string FirstTimeSettingKey = "FirstTimeSetting";
+	public bool FirstTimeSetting
+	{
+		get
+		{
+			return PlayerPrefs.GetInt(FirstTimeSettingKey, 1) == 1;
+		}
+		set
+		{
+			PlayerPrefs.SetInt(FirstTimeSettingKey, value ? 1 : 0);
+			OnSettingsChanged.Invoke();
+		}
+	}
+
 	public UnityEvent OnSettingsChanged = new UnityEvent();
 }
