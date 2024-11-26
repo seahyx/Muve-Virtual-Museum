@@ -64,6 +64,6 @@ MonoBehaviour:
   idle: {x: 0, y: 0, z: 0}
   hover: {x: 0, y: 0, z: -5}
   selected: {x: 0, y: 0, z: -2.5}
-  focused: {x: 0, y: 0, z: 0}
+  focused: {x: 0, y: 0, z: -2.5}
   activated: {x: 0, y: 0, z: 0}
   disabled: {x: 0, y: 0, z: 0}

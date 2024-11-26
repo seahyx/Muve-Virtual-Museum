@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Medieval Museum
+  m_text: Ancient Artefacts
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbf211683cbdc56419285f54861d8b36, type: 2}
   m_sharedMaterial: {fileID: -7526813356847590309, guid: dbf211683cbdc56419285f54861d8b36,
@@ -309,6 +309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5387218007617048837}
+  - component: {fileID: 8694291110746242404}
   - component: {fileID: 6890143792006181887}
   - component: {fileID: 2578471143274319046}
   - component: {fileID: 8653600208380446832}
@@ -317,7 +318,7 @@ GameObject:
   - component: {fileID: 7982180505353070312}
   - component: {fileID: 6369015007917100329}
   m_Layer: 5
-  m_Name: Museum Item
+  m_Name: Exhibition Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -345,6 +346,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 64, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8694291110746242404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418934140549479999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8ac4b727b0122d48aeec4d459a838f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exhibitDetails: {fileID: 0}
+  detailsPanel: {fileID: 0}
+  exhibitTitle: {fileID: 5605617244798865093}
+  exhibitImage: {fileID: 6962534450393898152}
 --- !u!114 &6890143792006181887
 MonoBehaviour:
   m_ObjectHideFlags: 0
