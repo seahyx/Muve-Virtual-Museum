@@ -7,7 +7,13 @@
       "dependencies": {
         "com.unity.xr.interaction.toolkit": "2.5.4"
       },
-      "hash": "f9808abf47dd270c763fd0bffbe6617607594aaf"
+      "hash": "c1566decd68236ad834af3cab6a80a2131f69b8d"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.burst": {
       "version": "1.8.17",
