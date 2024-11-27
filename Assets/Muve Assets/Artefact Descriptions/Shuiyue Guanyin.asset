@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Shuiyue Guanyin
+  m_EditorClassIdentifier: 
+  Title: Avalokiteshvara Bodhisattva in the Water-Moon Form (Shuiyue Guanyin)
+  Year: 12th century
+  Origin: Unknown artist, China
+  Material: Wood, gesso and pigments
+  Description: "Of the many manifestations of the Bodhisattva Avalokiteshvara, perhaps
+    none was more prevalent in East Asia than the uniquely Chinese form known as
+    \u201CWater-Moon Avalokiteshvara,\u201D which later also spread to Korea and
+    Japan. This form of the bodhisattva presides over his own paradise, Potolaka,
+    which is described in scripture as a rugged seaside cave from which Avalokiteshvara
+    could admire the reflection of the moon in the water. Appropriately, he appears
+    meditative and relaxed and is seated informally in the \u201Croyal-ease\u201D
+    posture. Ornately dressed, with silk robes, fluttering sashes, jewelry, and an
+    elaborate hairstyle, he also wears a headpiece that features an image of Amit\u0101bha,
+    the buddha to whom Avalokiteshvara attends. Believers might look to a sculpture
+    like this as a guide for their own journeys toward enlightenment."
+  MiniGameDescription: 

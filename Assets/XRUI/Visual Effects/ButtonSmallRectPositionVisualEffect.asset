@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8df88d0787aec4c94f1c02dd8472c7, type: 3}
+  m_Name: ButtonSmallRectPositionVisualEffect
+  m_EditorClassIdentifier: 
+  statePriorities:
+  - enabled: 1
+    state: 16
+  - enabled: 1
+    state: 8
+  - enabled: 1
+    state: 2
+  - enabled: 1
+    state: 1
+  - enabled: 1
+    state: 4
+  - enabled: 1
+    state: 0
+  deactivateOnDeselect: 1
+  transitionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.8409555
+      outSlope: 2.8409555
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.14406806
+    - serializedVersion: 3
+      time: 0.49888176
+      value: 1.6264853
+      inSlope: 0.007982105
+      outSlope: 0.007982105
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.34431648
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.035941057
+      outSlope: 0.035941057
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.31300405
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  transitionDuration: 0.2
+  transformMode: 1
+  idle: {x: 0, y: 0, z: 0}
+  hover: {x: 0, y: 0, z: -2}
+  selected: {x: 0, y: 0, z: -1}
+  focused: {x: 0, y: 0, z: 0}
+  activated: {x: 0, y: 0, z: 0}
+  disabled: {x: 0, y: 0, z: 0}

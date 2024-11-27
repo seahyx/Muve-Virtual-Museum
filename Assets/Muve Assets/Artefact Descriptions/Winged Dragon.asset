@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Winged Dragon
+  m_EditorClassIdentifier: 
+  Title: Winged dragon, one of a pair
+  Year: 5th-4th century BCE
+  Origin: Unknown artist, China
+  Material: Bronze
+  Description: The sculptural quality of these dashing beasts is conveyed by their
+    stances, the proud carriage of their heads, and the apparent agility of their
+    bodies. The forceful comma-shaped tails and their jaunty tufts, as well as the
+    double-rope patterns on the moustaches, are typical elements of Warring States
+    period art.
+  MiniGameDescription: 

@@ -1,0 +1,189 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33356,
+      "max": [
+        2.6510419845581055,
+        16.97134017944336,
+        1.9019500017166138
+      ],
+      "min": [
+        -2.0842089653015137,
+        11.430264472961426,
+        -2.761003017425537
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 400272,
+      "componentType": 5126,
+      "count": 33356,
+      "max": [
+        0.9999841451644897,
+        0.9998317360877991,
+        0.9999021291732788
+      ],
+      "min": [
+        -0.9999906420707703,
+        -0.9999434947967529,
+        -0.999962568283081
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33356,
+      "max": [
+        0.748649001121521,
+        1.0
+      ],
+      "min": [
+        5.0999999075429514e-05,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 192354,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/hu-wine-vessel-4th-century-bce-69cf1dbe7b1d4f58bc894bc200f3897d",
+      "title": "Hu wine vessel, 4th century BCE"
+    },
+    "generator": "Sketchfab-12.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 769416,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 266848,
+      "byteOffset": 769416,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 800544,
+      "byteOffset": 1036264,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1836808,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/160406_mia337_000811_OBJ_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "160406_mia337_000811_OBJ",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.016023716585285896,
+        0.0037081895127619533,
+        0.08501430651345743,
+        0.0,
+        0.03647940952378326,
+        -0.07785683937112431,
+        0.010271725104530876,
+        0.0,
+        0.07687935862643158,
+        0.03771610924340507,
+        0.012845304191272175,
+        0.0,
+        -5.201213836669922,
+        12.56701469421387,
+        -16.09584808349609,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "160406_mia337_000811_OBJ.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

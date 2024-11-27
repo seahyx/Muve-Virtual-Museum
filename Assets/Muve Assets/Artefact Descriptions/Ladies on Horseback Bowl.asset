@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Ladies on Horseback Bowl
+  m_EditorClassIdentifier: 
+  Title: Bowl Depicting Ladies on Horseback
+  Year: c.1180-1220
+  Origin: Iran
+  Material: Earthenware with overglaze polychrome colors, Mina'i ware
+  Description: These bowls date from the Seljuk period in Iran, around 1,100 or 1,200.
+    The Seljuks were familial clans who invaded Iran from the Asian Step. Although
+    not Muslim, the Seljuks quickly assimilated to the Islamic culture of their conquered
+    peoples. Under the Seljuks, the centers of power shifted from Baghdad in Iraq
+    to what is modern-day Turkey and Iran. These bowls illustrate the silhouette
+    effect popular in Seljuk art. Decoration is applied directly to the pot, painted
+    in a black slip and covered with a clear or colored glaze. This technique allows
+    the human figures to stand out against either a busy or a blank background. These
+    scenes and other figural designs were often taken from Iranian epic hero poems.
+    Another important feature of these bowls is the Arabic script that adorns the
+    outer rim. Bend down and take a look underneath the rim. The writing is a crude,
+    kufik script, and each bowl's script looks different, suggesting that these three
+    bowls are from different artists, each with a different level of comfort, writing
+    in Arabic.
+  MiniGameDescription: 

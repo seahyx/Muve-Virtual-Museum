@@ -1,0 +1,8 @@
+Model Information:
+* title:	1980.16 Piggy Bank
+* source:	https://sketchfab.com/3d-models/198016-piggy-bank-14bfd106baf14d62aebf6eafbe25b3c3
+* author:	Cleveland Museum of Art (https://sketchfab.com/clevelandart)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.

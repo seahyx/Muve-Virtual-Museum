@@ -1,0 +1,238 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33943,
+      "max": [
+        3.625333070755005,
+        19.551372528076172,
+        1.515848994255066
+      ],
+      "min": [
+        -1.7602699995040894,
+        15.787508964538574,
+        -2.870249032974243
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 407316,
+      "componentType": 5126,
+      "count": 33943,
+      "max": [
+        0.9999895095825195,
+        0.9999811053276062,
+        0.9999791383743286
+      ],
+      "min": [
+        -0.9999669790267944,
+        -0.999792218208313,
+        -0.9999731183052063
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 33943,
+      "max": [
+        0.9999831318855286,
+        0.9999926686286926,
+        0.9999786019325256,
+        1.0
+      ],
+      "min": [
+        -0.999981164932251,
+        -0.9999363422393799,
+        -0.9996804594993591,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33943,
+      "max": [
+        0.9999449849128723,
+        0.9965100288391113
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 191916,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/winged-dragon-one-of-pair-5th-4th-century-bce-b390b4046d6c46beb811c8c9e21014d4",
+      "title": "Winged Dragon, one of pair, 5th-4th century BCE"
+    },
+    "generator": "Sketchfab-12.60.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 767664,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 271544,
+      "byteOffset": 767664,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 814632,
+      "byteOffset": 1039208,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 543088,
+      "byteOffset": 1853840,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2396928,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/161129_mia337_001046_403_OBJ_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/161129_mia337_001046_403_OBJ_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/161129_mia337_001046_403_OBJ_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "161129_mia337_001046_403_OBJ",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.6602515244
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.05599625938521591,
+        0.010029444424606302,
+        -0.03956489694926901,
+        0.0,
+        -0.03173233087029104,
+        -0.05294325389565203,
+        0.03149004517142727,
+        0.0,
+        -0.02567157860529079,
+        0.04356574580111071,
+        0.047376659218878465,
+        0.0,
+        9.52683162689209,
+        13.113864898681646,
+        -24.70377922058105,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "161129_mia337_001046_403_OBJ.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

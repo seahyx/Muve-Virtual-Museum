@@ -1,0 +1,199 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33256,
+      "max": [
+        3.3176701068878174,
+        16.29140281677246,
+        2.920435905456543
+      ],
+      "min": [
+        -1.2906850576400757,
+        9.86053466796875,
+        -1.3436369895935059
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 399072,
+      "componentType": 5126,
+      "count": 33256,
+      "max": [
+        0.9998971223831177,
+        0.9998471140861511,
+        0.9999382495880127
+      ],
+      "min": [
+        -0.9999341368675232,
+        -0.9995832443237305,
+        -0.9999756217002869
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33256,
+      "max": [
+        0.9999690055847168,
+        0.9448879957199097
+      ],
+      "min": [
+        0.0,
+        3.400000059627928e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 192468,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/18th-c-chinese-cloisonne-vase-396bb981dc4d47d080d5af127826d206",
+      "title": "18th C Chinese cloisonne vase"
+    },
+    "generator": "Sketchfab-12.63.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 769872,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 266048,
+      "byteOffset": 769872,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 798144,
+      "byteOffset": 1035920,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1834064,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat"
+  ],
+  "images": [
+    {
+      "uri": "textures/180822_mia337_113283_300_64Kmesh_OBJ_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.4231656632,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "180822_mia337_113283_300_64Kmesh_OBJ",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.1527254117
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.06375577062122506,
+        -0.029064260162009692,
+        -0.001772449446483366,
+        0.0,
+        -0.029045612924880393,
+        -0.06377996795458518,
+        0.001067436762101921,
+        0.0,
+        -0.002055501482075256,
+        -0.00023645693652801092,
+        -0.07005990288418928,
+        0.0,
+        5.234070301055908,
+        13.309480667114261,
+        -12.449225425720211,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "180822_mia337_113283_300_64Kmesh_OBJ.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

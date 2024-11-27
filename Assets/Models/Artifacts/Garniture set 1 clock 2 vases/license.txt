@@ -1,0 +1,8 @@
+Model Information:
+* title:	2020.421 Garniture Set (one clock and 2 vases)
+* source:	https://sketchfab.com/3d-models/2020421-garniture-set-one-clock-and-2-vases-cd28c65e935e47918792b4c8388d2ae3
+* author:	Cleveland Museum of Art (https://sketchfab.com/clevelandart)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Scenes in and around Kyoto, early 17th C CE
+* source:	https://sketchfab.com/3d-models/scenes-in-and-around-kyoto-early-17th-c-ce-140a5d5a620d457490ae950b74c99e59
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Scenes in and around Kyoto, early 17th C CE" (https://sketchfab.com/3d-models/scenes-in-and-around-kyoto-early-17th-c-ce-140a5d5a620d457490ae950b74c99e59) by Minneapolis Institute of Art (https://sketchfab.com/artsmia) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

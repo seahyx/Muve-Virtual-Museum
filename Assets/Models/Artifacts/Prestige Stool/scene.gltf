@@ -1,0 +1,334 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.21644200384616852,
+        -0.005404999945312738,
+        0.18717099726200104
+      ],
+      "min": [
+        -0.20962199568748474,
+        -0.5136680006980896,
+        -0.19435200095176697
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999735355377197,
+        0.999997615814209,
+        0.9999855756759644
+      ],
+      "min": [
+        -0.9999926090240479,
+        -0.9999992847442627,
+        -0.999964714050293
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999937415122986,
+        0.9999989867210388,
+        0.9999251961708069,
+        1.0
+      ],
+      "min": [
+        -0.999828040599823,
+        -0.9999934434890747,
+        -0.9999890327453613,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9487670063972473,
+        0.9995120167732239
+      ],
+      "min": [
+        0.0004879999905824661,
+        0.0004879999905824661
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 205821,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        0.13582000136375427,
+        -0.0259380005300045,
+        0.17285799980163574
+      ],
+      "min": [
+        -0.14952699840068817,
+        -0.51003098487854,
+        -0.09235800057649612
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1589208,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        0.983583390712738,
+        0.9996456503868103,
+        0.9975643157958984
+      ],
+      "min": [
+        -0.9975503087043762,
+        -0.9999498128890991,
+        -0.62357497215271
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        0.9990959763526917,
+        0.9998833537101746,
+        0.9349330067634583,
+        1.0
+      ],
+      "min": [
+        -0.8928879499435425,
+        -0.9212520718574524,
+        -0.9996798038482666,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        0.8680350184440613,
+        0.9384729862213135
+      ],
+      "min": [
+        0.0005189999938011169,
+        0.019133999943733215
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 823284,
+      "componentType": 5125,
+      "count": 3309,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cleveland Museum of Art (https://sketchfab.com/clevelandart)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/2006138-prestige-stool-kuo-fo-5722f792fa484993bc06ca6f0c0244fb",
+      "title": "2006.138 Prestige Stool (Kuo fo)"
+    },
+    "generator": "Sketchfab-16.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 836520,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 535216,
+      "byteOffset": 836520,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1605648,
+      "byteOffset": 1371736,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1070432,
+      "byteOffset": 2977384,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4047816,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/2006.138_Prestige_Stool_Mats_baseColor.png"
+    },
+    {
+      "uri": "textures/2006.138_Prestige_Stool_Mats_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/2006.138_Prestige_Stool_Mats_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "2006.138_Prestige_Stool_Mats",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.9493362265484999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.5838212370872498,
+        -3.4680752879746543e-16,
+        0.8118822574615479,
+        0.0,
+        0.0,
+        1.0,
+        4.440892098500626e-16,
+        0.0,
+        -0.8118822574615479,
+        2.4065665839839706e-16,
+        -0.5838212370872498,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "2006.138 Prestige Stool.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

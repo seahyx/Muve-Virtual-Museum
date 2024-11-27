@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6055ad7627bdb74399507b32caae844, type: 3}
+  m_Name: Saint Martin and the Beggar
+  m_EditorClassIdentifier: 
+  Title: Saint Martin and the Beggar
+  Year: c. 1375-85
+  Origin: 'Jaume Serra; Artist: Pere Serra, Spain'
+  Material: Oil on canvas
+  Description: "This newly discovered panel painting was a compartment of a larger
+    Spanish Gothic altarpiece. It was made in the flourishing workshop of the brothers
+    Jaume and Pere Serra in Barcelona. It represents Saint Martin, Bishop of Tours
+    (c. 315\u2013397), who as a young man had served in the Roman army in Gaul. One
+    cold winter night, he came upon a man bare and shivering, and he cut his cloak
+    in half to share it. After this act of charity, Christ appeared to Martin in
+    a dream\u2014wearing the cloak\u2014and said, \"\"What thou hast done for that
+    poor man, thou hast done for me.\"\" The painting\u2019s monumental scale, refined
+    coloring, and expressive figures reflect the influence of Italian painting, particularly
+    Sienese painting, of which a number of examples are displayed nearby."
+  MiniGameDescription: 
