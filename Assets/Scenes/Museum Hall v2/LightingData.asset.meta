@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scenes/Museum Hall v2/LightingData.asset.meta
 guid: 8183f8b09df80924291cd9faf4486abd
-========
-guid: dcbe8bdde579d57449ac871a391e43cf
->>>>>>>> feature-main-menu:Assets/XRUI/Visual Effects/ButtonBorderRectPositionVisualEffect.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 112000000

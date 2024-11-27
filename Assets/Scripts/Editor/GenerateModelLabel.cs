@@ -20,7 +20,7 @@ public class GenerateModelLabel
 	}
 
 	const string CSV_NAME = "ArtefactDescription.csv";
-	const string DESCRIPTION_ASSET_PATH = "Assets/Prefabs/Artefacts/Descriptions/";
+	const string DESCRIPTION_ASSET_PATH = "Assets/Muve Assets/Artefact Descriptions/";
 	const string CSV_PATH = DESCRIPTION_ASSET_PATH + CSV_NAME;
 
 	[MenuItem("Museum Utilities/Update and Generate Model Labels")]
