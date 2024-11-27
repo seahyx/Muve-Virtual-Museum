@@ -874,11 +874,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: plastic_monobloc_chair_01_2k
       objectReference: {fileID: 0}
-    - target: {fileID: -8241251506481068, guid: 5518d365506213145abd1cbd4c9133ea,
-        type: 3}
-      propertyPath: m_StaticShadowCaster
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8831620704710863762, guid: 5518d365506213145abd1cbd4c9133ea,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1105,7 +1100,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
