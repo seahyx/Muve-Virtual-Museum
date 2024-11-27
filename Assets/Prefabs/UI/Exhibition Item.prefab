@@ -526,7 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnabled: 1
   Target: {fileID: 4797562984059802168}
-  Effect: {fileID: 11400000, guid: dcbe8bdde579d57449ac871a391e43cf, type: 2}
+  Effect: {fileID: 11400000, guid: e2ab29812019be04c97c68249ef5b3bf, type: 2}
 --- !u!1 &7607361868846554383
 GameObject:
   m_ObjectHideFlags: 0

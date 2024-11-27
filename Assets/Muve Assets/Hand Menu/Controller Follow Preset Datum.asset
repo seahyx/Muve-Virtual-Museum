@@ -15,14 +15,14 @@ MonoBehaviour:
   m_Comments: 
   m_ReadOnly: 1
   m_Value:
-    rightHandLocalPosition: {x: 0.13, y: 0, z: 0}
-    leftHandLocalPosition: {x: -0.13, y: 0, z: 0}
-    rightHandLocalRotation: {x: 100, y: 0, z: 0}
-    leftHandLocalRotation: {x: 100, y: 0, z: 0}
-    palmReferenceAxis: 4
-    invertAxisForRightHand: 0
+    rightHandLocalPosition: {x: 0.1, y: -0.1, z: 0.08}
+    leftHandLocalPosition: {x: -0.1, y: -0.1, z: 0.08}
+    rightHandLocalRotation: {x: 0, y: -100, z: -30}
+    leftHandLocalRotation: {x: 0, y: 100, z: 30}
+    palmReferenceAxis: 0
+    invertAxisForRightHand: 1
     requirePalmFacingUser: 1
-    palmFacingUserDegreeAngleThreshold: 45
+    palmFacingUserDegreeAngleThreshold: 30
     requirePalmFacingUp: 0
     palmFacingUpDegreeAngleThreshold: 0
     snapToGaze: 0

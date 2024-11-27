@@ -37,7 +37,7 @@ public class MainMenuDetailsPanel : MonoBehaviour
 		{
 			if (currentlySelectedExhibit != null)
 			{
-				SceneManager.LoadSceneAsync(currentlySelectedExhibit.name);
+				SceneManager.LoadSceneAsync(currentlySelectedExhibit.SceneName);
 			}
 		});
 	}

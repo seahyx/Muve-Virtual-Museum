@@ -62,8 +62,8 @@ MonoBehaviour:
   transitionDuration: 0.2
   transformMode: 1
   idle: {x: 0, y: 0, z: 0}
-  hover: {x: 0, y: 0, z: -2}
-  selected: {x: 0, y: 0, z: -1}
+  hover: {x: 0, y: 0, z: -1}
+  selected: {x: 0, y: 0, z: -0.5}
   focused: {x: 0, y: 0, z: 0}
   activated: {x: 0, y: 0, z: 0}
   disabled: {x: 0, y: 0, z: 0}

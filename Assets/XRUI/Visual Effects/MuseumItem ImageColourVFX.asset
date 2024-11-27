@@ -15,7 +15,7 @@ MonoBehaviour:
   statePriorities:
   - enabled: 1
     state: 16
-  - enabled: 1
+  - enabled: 0
     state: 8
   - enabled: 1
     state: 2
