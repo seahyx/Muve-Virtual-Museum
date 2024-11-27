@@ -21,4 +21,4 @@ MonoBehaviour:
     Full
     voice narration available.'
   Image: {fileID: 21300000, guid: b0f04d7b7f078ee4bb892bf8f998e2d7, type: 3}
-  Scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+  SceneName: Museum Hall v2
