@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Text;
 using System.Text.RegularExpressions;
 using UnityEditor;
@@ -24,7 +23,7 @@ public class GenerateModelLabel
 	const string DESCRIPTION_ASSET_PATH = "Assets/Prefabs/Artefacts/Descriptions/";
 	const string CSV_PATH = DESCRIPTION_ASSET_PATH + CSV_NAME;
 
-	[MenuItem("Museum Utilities/Generate Model Labels")]
+	[MenuItem("Museum Utilities/Update and Generate Model Labels")]
 	static void GenerateModelLabels()
 	{
 		TextAsset artefactDesc = AssetDatabase.LoadAssetAtPath<TextAsset>(CSV_PATH);
@@ -88,7 +87,15 @@ public class GenerateModelLabel
 		// Create the artefact description assets
 		foreach (ArtefactDescription desc in artefacts)
 		{
-			Artefact asset = ScriptableObject.CreateInstance<Artefact>();
+			bool hasExisting = true;
+
+			Artefact asset = AssetDatabase.LoadAssetAtPath<Artefact>(DESCRIPTION_ASSET_PATH + desc.prefabName + ".asset");
+			if (asset == null)
+			{
+				hasExisting = false;
+				asset = ScriptableObject.CreateInstance<Artefact>();
+			}
+
 			asset.Title = desc.title;
 			asset.Year = desc.year;
 			asset.Origin = desc.origin;
@@ -96,7 +103,8 @@ public class GenerateModelLabel
 			asset.Description = desc.description;
 			asset.MiniGameDescription = desc.miniDescription;
 
-			AssetDatabase.CreateAsset(asset, DESCRIPTION_ASSET_PATH + desc.prefabName + ".asset");
+			if (!hasExisting)
+				AssetDatabase.CreateAsset(asset, DESCRIPTION_ASSET_PATH + desc.prefabName + ".asset");
 		}
 	}
 }

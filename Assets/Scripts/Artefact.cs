@@ -12,4 +12,5 @@ public class Artefact : ScriptableObject
     public string Description;
     [Multiline(3)]
     public string MiniGameDescription;
+    public AudioClip Narration;
 }
