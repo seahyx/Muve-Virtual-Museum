@@ -43,4 +43,19 @@ public class MuseumLabel : MonoBehaviour
 			$"<size=11>\r\n" +
 			$"{artefactDescription.Description}</size>";
 	}
+
+	public void PlayNarration()
+	{
+		if (artefactDescription == null)
+		{
+			Debug.LogWarning("artefactDescription is empty");
+			return;
+		}
+		if (artefactDescription.Narration == null)
+		{
+			Debug.LogWarning("Narration is empty");
+			return;
+		}
+		NarrationManager.Instance.PlayNarration(artefactDescription.Narration, artefactDescription.Title);
+	}
 }
