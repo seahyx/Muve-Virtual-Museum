@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 57981170478511472}
   - component: {fileID: 6262155125119288190}
   - component: {fileID: 2228958279473601766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Amphora_Stand (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,6 +122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amphora (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3629098907630432920, guid: afc3fedc78427f04097996d062288c66,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3629098907630726840, guid: afc3fedc78427f04097996d062288c66,
         type: 3}
       propertyPath: m_RootOrder
@@ -216,6 +221,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amphora (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3629098907630432920, guid: afc3fedc78427f04097996d062288c66,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3629098907630726840, guid: afc3fedc78427f04097996d062288c66,
         type: 3}
       propertyPath: m_RootOrder
@@ -309,6 +319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Amphora (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629098907630432920, guid: afc3fedc78427f04097996d062288c66,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3629098907630726840, guid: afc3fedc78427f04097996d062288c66,
         type: 3}

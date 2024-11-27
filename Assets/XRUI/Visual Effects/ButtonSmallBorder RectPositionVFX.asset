@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e92d41a1b5035b4a9d3934aa5bab5f8, type: 3}
-  m_Name: MuseumItemImageColourVisualEffect
+  m_Script: {fileID: 11500000, guid: ba8df88d0787aec4c94f1c02dd8472c7, type: 3}
+  m_Name: ButtonSmallBorder RectPositionVFX
   m_EditorClassIdentifier: 
   statePriorities:
   - enabled: 1
@@ -32,29 +32,38 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2
-      outSlope: 2
+      inSlope: 2.8409555
+      outSlope: 2.8409555
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.14406806
+    - serializedVersion: 3
+      time: 0.49888176
+      value: 1.6264853
+      inSlope: 0.007982105
+      outSlope: 0.007982105
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.34431648
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: 0.035941057
+      outSlope: 0.035941057
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.31300405
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   transitionDuration: 0.2
-  colourBlendMode: 1
-  idle: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
-  hover: {r: 1, g: 1, b: 1, a: 1}
-  selected: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
-  focused: {r: 1, g: 1, b: 1, a: 1}
-  activated: {r: 1, g: 1, b: 1, a: 1}
-  disabled: {r: 1, g: 1, b: 1, a: 1}
+  transformMode: 1
+  idle: {x: 0, y: 0, z: 0}
+  hover: {x: 0, y: 0, z: 0}
+  selected: {x: 0, y: 0, z: 1}
+  focused: {x: 0, y: 0, z: 0}
+  activated: {x: 0, y: 0, z: 0}
+  disabled: {x: 0, y: 0, z: 0}

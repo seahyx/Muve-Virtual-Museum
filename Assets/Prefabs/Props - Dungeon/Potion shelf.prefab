@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 34413613789501589}
   - component: {fileID: 34413613788502613}
   - component: {fileID: 34413613790758036}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jar_Empty (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 520609484352874091}
   - component: {fileID: 520609484353840299}
   - component: {fileID: 520609484356106858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plate_Small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 686965965690776412}
   - component: {fileID: 686965965691906460}
   - component: {fileID: 686965965694170975}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scroll_Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 975137308096214405}
   - component: {fileID: 975137308097345349}
   - component: {fileID: 975137308099340676}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Red (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 1049469304394066195}
   - component: {fileID: 1049469304392969171}
   - component: {fileID: 1049469304395166994}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Blue (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 1147563009035550475}
   - component: {fileID: 1147563009034452427}
   - component: {fileID: 1147563009032512268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Book_Big_Green (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 1260858689980354179}
   - component: {fileID: 1260858689979354179}
   - component: {fileID: 1260858689977160348}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 1368694387278984892}
   - component: {fileID: 1368694387277886588}
   - component: {fileID: 1368694387280079549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jar_Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 1490479040648716302}
   - component: {fileID: 1490479040649847502}
   - component: {fileID: 1490479040652114959}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Small (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 1811335390908324320}
   - component: {fileID: 1811335390909324064}
   - component: {fileID: 1811335390907123171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +1081,7 @@ GameObject:
   - component: {fileID: 1951660573362160550}
   - component: {fileID: 1951660573363159398}
   - component: {fileID: 1951660573360971689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scroll_Stack (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 1977165027312793076}
   - component: {fileID: 1977165027313760052}
   - component: {fileID: 1977165027315952117}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fork
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 2199239401620841921}
   - component: {fileID: 2199239401621841665}
   - component: {fileID: 2199239401619651014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Full_Var1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1402,7 +1402,7 @@ GameObject:
   - component: {fileID: 2300630378669192560}
   - component: {fileID: 2300630378670323632}
   - component: {fileID: 2300630378672515441}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Book_DeepRed (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1509,7 +1509,7 @@ GameObject:
   - component: {fileID: 2428202852020641002}
   - component: {fileID: 2428202852021607978}
   - component: {fileID: 2428202852023533803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Full_Var2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1616,7 +1616,7 @@ GameObject:
   - component: {fileID: 2599725037916294249}
   - component: {fileID: 2599725037915328169}
   - component: {fileID: 2599725037913329770}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Empty (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +1722,7 @@ GameObject:
   - component: {fileID: 2658715372517902513}
   - component: {fileID: 2658715372519000689}
   - component: {fileID: 2658715372521198768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1829,7 +1829,7 @@ GameObject:
   - component: {fileID: 2692057090974596058}
   - component: {fileID: 2692057090973628698}
   - component: {fileID: 2692057090975819739}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Red (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1936,7 +1936,7 @@ GameObject:
   - component: {fileID: 3448469189914300816}
   - component: {fileID: 3448469189913334608}
   - component: {fileID: 3448469189911334289}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Small (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2042,7 +2042,7 @@ GameObject:
   - component: {fileID: 3734695333358202119}
   - component: {fileID: 3734695333357072327}
   - component: {fileID: 3734695333359005952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jar_Full (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2149,7 +2149,7 @@ GameObject:
   - component: {fileID: 4435090796306924178}
   - component: {fileID: 4435090796305956946}
   - component: {fileID: 4435090796303703699}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,7 +2256,7 @@ GameObject:
   - component: {fileID: 4460759689751006273}
   - component: {fileID: 4460759689749909121}
   - component: {fileID: 4460759689747910720}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2363,7 +2363,7 @@ GameObject:
   - component: {fileID: 4601779824105226510}
   - component: {fileID: 4601779824104260558}
   - component: {fileID: 4601779824106265871}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Book_Small_DeepRed (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2470,7 +2470,7 @@ GameObject:
   - component: {fileID: 4805502847612294908}
   - component: {fileID: 4805502847613293628}
   - component: {fileID: 4805502847615290109}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Book_Big_Red (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2577,7 +2577,7 @@ GameObject:
   - component: {fileID: 4870745127469557707}
   - component: {fileID: 4870745127470556427}
   - component: {fileID: 4870745127472757706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Book_Green (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2684,7 +2684,7 @@ GameObject:
   - component: {fileID: 5284846401508625296}
   - component: {fileID: 5284846401509722448}
   - component: {fileID: 5284846401507792785}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plate_Small (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2790,7 +2790,7 @@ GameObject:
   - component: {fileID: 5464872405230839183}
   - component: {fileID: 5464872405229840207}
   - component: {fileID: 5464872405231843726}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Green (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2897,7 +2897,7 @@ GameObject:
   - component: {fileID: 5486340472086611758}
   - component: {fileID: 5486340472085612014}
   - component: {fileID: 5486340472087616297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3003,7 +3003,7 @@ GameObject:
   - component: {fileID: 5524863891307791235}
   - component: {fileID: 5524863891308921155}
   - component: {fileID: 5524863891311124412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scroll_Small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 5651370376795333986}
   - component: {fileID: 5651370376796333986}
   - component: {fileID: 5651370376798599523}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3216,7 +3216,7 @@ GameObject:
   - component: {fileID: 6075470270167991336}
   - component: {fileID: 6075470270168958696}
   - component: {fileID: 6075470270170961959}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scroll_Stack (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3322,7 +3322,7 @@ GameObject:
   - component: {fileID: 6333199376656260972}
   - component: {fileID: 6333199376655261100}
   - component: {fileID: 6333199376657253229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Blue (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3426,7 +3426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8655248231135916230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3504,7 +3504,7 @@ GameObject:
   - component: {fileID: 6978930897695023667}
   - component: {fileID: 6978930897694056691}
   - component: {fileID: 6978930897696325172}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3610,7 +3610,7 @@ GameObject:
   - component: {fileID: 7003975399259839572}
   - component: {fileID: 7003975399258742420}
   - component: {fileID: 7003975399256801365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plate_Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3716,7 +3716,7 @@ GameObject:
   - component: {fileID: 7059912575037127257}
   - component: {fileID: 7059912575038257305}
   - component: {fileID: 7059912575035991646}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3822,7 +3822,7 @@ GameObject:
   - component: {fileID: 7109566660447014274}
   - component: {fileID: 7109566660448014146}
   - component: {fileID: 7109566660445753741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scroll_Stack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3928,7 +3928,7 @@ GameObject:
   - component: {fileID: 7269512879277975364}
   - component: {fileID: 7269512879276877188}
   - component: {fileID: 7269512879274883909}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Blue (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4035,7 +4035,7 @@ GameObject:
   - component: {fileID: 7290929017808310997}
   - component: {fileID: 7290929017809276949}
   - component: {fileID: 7290929017811537642}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scroll_Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4141,7 +4141,7 @@ GameObject:
   - component: {fileID: 8200356805297125356}
   - component: {fileID: 8200356805296026924}
   - component: {fileID: 8200356805294091235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Book_Brown (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4248,7 +4248,7 @@ GameObject:
   - component: {fileID: 8272314133066999520}
   - component: {fileID: 8272314133068096544}
   - component: {fileID: 8272314133065841377}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Red (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4355,7 +4355,7 @@ GameObject:
   - component: {fileID: 8592460360972429296}
   - component: {fileID: 8592460360973526320}
   - component: {fileID: 8592460360971271155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shelf (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4461,7 +4461,7 @@ GameObject:
   - component: {fileID: 8922347699023924022}
   - component: {fileID: 8922347699022924278}
   - component: {fileID: 8922347699025188663}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4567,7 +4567,7 @@ GameObject:
   - component: {fileID: 9123110542521376035}
   - component: {fileID: 9123110542520279011}
   - component: {fileID: 9123110542522204450}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Beaker_Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4673,7 +4673,7 @@ GameObject:
   - component: {fileID: 9221091476984327289}
   - component: {fileID: 9221091476985425593}
   - component: {fileID: 9221091476987687032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Potion_Green (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

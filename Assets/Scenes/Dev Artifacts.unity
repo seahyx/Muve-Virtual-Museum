@@ -1980,11 +1980,112 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4450438975712119294, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[1].time
+      value: 0.35703117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[2].time
+      value: 0.7456329
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[1].value
+      value: 1.3230554
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[2].value
+      value: 0.9034891
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[0].inSlope
+      value: 5.867917
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[1].inSlope
+      value: 0.066625945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[2].inSlope
+      value: 0.15937497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[0].outSlope
+      value: 5.867917
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[1].outSlope
+      value: 0.066625945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[2].outSlope
+      value: 0.15937497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[0].outWeight
+      value: 0.11979711
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[1].outWeight
+      value: 0.3248023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858867659167271784, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: returnCurve.m_Curve.Array.data[2].outWeight
+      value: 0.63930345
+      objectReference: {fileID: 0}
     - target: {fileID: 6625378009489615791, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7219186379987975945, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: artefactDescription
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a026d34c1f8e764195d7d9eb6890b74,
+        type: 2}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1993,12 +2094,12 @@ PrefabInstance:
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
@@ -2039,6 +2140,24 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Museum Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180994046660159810, guid: d22eeac3375154c40a334527c5f5776b,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Unknown artist, China</b>\r\n<size=5> </size>\r\n<b><i>Avalokiteshvara
+        Bodhisattva in the Water-Moon Form (Shuiyue Guanyin)</i></b>\r\n<size=5>
+        </size>\r\n12th century\r\n<size=5> </size>\r\nWood, gesso and pigments\r\n<size=11>\r\nOf
+        the many manifestations of the Bodhisattva Avalokiteshvara, perhaps none
+        was more prevalent in East Asia than the uniquely Chinese form known as \u201CWater-Moon
+        Avalokiteshvara,\u201D which later also spread to Korea and Japan. This form
+        of the bodhisattva presides over his own paradise, Potolaka, which is described
+        in scripture as a rugged seaside cave from which Avalokiteshvara could admire
+        the reflection of the moon in the water. Appropriately, he appears meditative
+        and relaxed and is seated informally in the \u201Croyal-ease\u201D posture.
+        Ornately dressed, with silk robes, fluttering sashes, jewelry, and an elaborate
+        hairstyle, he also wears a headpiece that features an image of Amit\u0101bha,
+        the buddha to whom Avalokiteshvara attends. Believers might look to a sculpture
+        like this as a guide for their own journeys toward enlightenment.</size>"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

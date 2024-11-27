@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3528420897108540707}
   - component: {fileID: 8944654589086821427}
   - component: {fileID: 3939176422743221958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WeaponRack_Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,6 +191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4456945836124224068, guid: 3c69fa93618176a43962f23c5526778b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -284,6 +289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456945836124224068, guid: 3c69fa93618176a43962f23c5526778b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

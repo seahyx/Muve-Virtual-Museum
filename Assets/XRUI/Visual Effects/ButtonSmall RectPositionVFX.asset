@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba8df88d0787aec4c94f1c02dd8472c7, type: 3}
-  m_Name: ButtonBorderRectPositionVisualEffect
+  m_Name: ButtonSmall RectPositionVFX
   m_EditorClassIdentifier: 
   statePriorities:
   - enabled: 1
@@ -62,8 +62,8 @@ MonoBehaviour:
   transitionDuration: 0.2
   transformMode: 1
   idle: {x: 0, y: 0, z: 0}
-  hover: {x: 0, y: 0, z: 0}
-  selected: {x: 0, y: 0, z: 2}
+  hover: {x: 0, y: 0, z: -2}
+  selected: {x: 0, y: 0, z: -1}
   focused: {x: 0, y: 0, z: 0}
   activated: {x: 0, y: 0, z: 0}
   disabled: {x: 0, y: 0, z: 0}
