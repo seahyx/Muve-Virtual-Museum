@@ -5,11 +5,12 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
-    smallestHole: 0.25
+    smallestOccluder: 0.2
+    smallestHole: 0.1
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 9fc0d4010bbf28b4594072e72b8655ab
+  m_OcclusionCullingData: {fileID: 36300000, guid: c3f0b00ce14f77f44a8afc41a456efad,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -6999,6 +7000,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorGate_Wooden_Right
       objectReference: {fileID: 0}
+    - target: {fileID: 7750370834963051906, guid: b7ed1f58ec447ad4fb0c93a62eb4c4b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7241,7 +7247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &385179729
 Transform:
   m_ObjectHideFlags: 0
@@ -10737,6 +10743,31 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000018402932
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7743926118083082923, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -12894,6 +12925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Buffalo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025839826198403738, guid: 9fb779ee5b28d9c4e9a71243354a35a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21208,6 +21244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorGate_Wooden_Left
       objectReference: {fileID: 0}
+    - target: {fileID: 6322556187633357650, guid: f5e4cf5af47ee60418f92554c028a4ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26374,12 +26415,12 @@ PrefabInstance:
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.696
+      value: 0.735
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.441
+      value: 4.407
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
@@ -26394,17 +26435,17 @@ PrefabInstance:
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.97629666
+      value: 0.91039574
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.21643698
+      value: 0.41373858
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -25
+      value: -48.88
       objectReference: {fileID: 0}
     - target: {fileID: 8753280773142270667, guid: d22eeac3375154c40a334527c5f5776b,
         type: 3}
