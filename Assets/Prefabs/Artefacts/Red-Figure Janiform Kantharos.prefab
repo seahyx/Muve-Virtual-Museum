@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9207885166078620007}
   - component: {fileID: 3209607784519769517}
   - component: {fileID: -410284043651121318}
+  - component: {fileID: -789031035179944042}
   m_Layer: 0
   m_Name: Red-Figure Janiform Kantharos
   m_TagString: Untagged
@@ -214,6 +215,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-789031035179944042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5386805914032994028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1 &8742056287974768308
 GameObject:
   m_ObjectHideFlags: 0

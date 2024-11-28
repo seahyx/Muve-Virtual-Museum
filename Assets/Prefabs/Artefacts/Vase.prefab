@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 5691341369687903454}
   - component: {fileID: 7623870196385921438}
   - component: {fileID: -5668173352522044462}
+  - component: {fileID: 9087931675272824075}
   m_Layer: 0
   m_Name: Vase
   m_TagString: Untagged
@@ -271,6 +272,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &9087931675272824075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257759988915072502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1 &5051958823542834714
 GameObject:
   m_ObjectHideFlags: 0

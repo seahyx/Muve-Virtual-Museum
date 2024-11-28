@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 8866715974544084025}
   - component: {fileID: 9011511064684606697}
   - component: {fileID: -5687894714260401698}
+  - component: {fileID: 8385192675677189724}
   m_Layer: 0
   m_Name: Ladies on Horseback Bowl
   m_TagString: Untagged
@@ -268,6 +269,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &8385192675677189724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358558446073717546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1 &8491021988486008122
 GameObject:
   m_ObjectHideFlags: 0

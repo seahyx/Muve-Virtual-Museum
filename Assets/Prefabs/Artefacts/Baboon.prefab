@@ -270,6 +270,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &1603127191634200942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5227239551564380486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1 &7209091150238046139
 GameObject:
   m_ObjectHideFlags: 0

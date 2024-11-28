@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 9195045641662717257}
   - component: {fileID: 2464725688313434921}
   - component: {fileID: -6546198759662403973}
+  - component: {fileID: -849069484728612395}
   m_Layer: 0
   m_Name: Olive Tree Painting
   m_TagString: Untagged
@@ -267,6 +268,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-849069484728612395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911376159543528687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1001 &3138784122484105284
 PrefabInstance:
   m_ObjectHideFlags: 0

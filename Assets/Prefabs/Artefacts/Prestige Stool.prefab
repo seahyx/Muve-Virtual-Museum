@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 2805513017835432018}
   - component: {fileID: 4574587836206340130}
   - component: {fileID: 1106589499775894122}
+  - component: {fileID: -2906925008413815198}
   m_Layer: 0
   m_Name: Prestige Stool
   m_TagString: Untagged
@@ -267,6 +268,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-2906925008413815198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059976962723206072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1001 &3936041510944970812
 PrefabInstance:
   m_ObjectHideFlags: 0

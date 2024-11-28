@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 7747396648936950991}
   - component: {fileID: 7977878729601120702}
   - component: {fileID: 4608208638573378938}
+  - component: {fileID: -5653265941965504589}
   m_Layer: 0
   m_Name: Fish Vessel
   m_TagString: Untagged
@@ -270,6 +271,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-5653265941965504589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492889726796690603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1 &8933792402024366025
 GameObject:
   m_ObjectHideFlags: 0

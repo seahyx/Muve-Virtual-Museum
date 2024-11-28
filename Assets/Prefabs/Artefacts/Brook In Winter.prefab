@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8619265695749409385}
   - component: {fileID: 2234372156725562749}
   - component: {fileID: 3451433505261872277}
+  - component: {fileID: -7116531971348206406}
   m_Layer: 0
   m_Name: Brook In Winter
   m_TagString: Untagged
@@ -214,6 +215,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-7116531971348206406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3791207569894797687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7eeabe03274694eb286f742a83ceae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumY: -10
+  resetRotation: 1
 --- !u!1 &5436899635232231717
 GameObject:
   m_ObjectHideFlags: 0
