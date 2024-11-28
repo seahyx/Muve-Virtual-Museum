@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49179342c1015429546aadc001df46, type: 3}
+  m_Name: Button AudioClipVFX
+  m_EditorClassIdentifier: 
+  statePriorities:
+  - enabled: 1
+    state: 16
+  - enabled: 1
+    state: 8
+  - enabled: 1
+    state: 2
+  - enabled: 1
+    state: 1
+  - enabled: 1
+    state: 4
+  - enabled: 1
+    state: 0
+  deactivateOnDeselect: 1
+  idle: {fileID: 0}
+  hover: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  selected: {fileID: 8300000, guid: d8d04c6f80a1140db85ede568dab1f51, type: 3}
+  focused: {fileID: 0}
+  activated: {fileID: 0}
+  disabled: {fileID: 0}

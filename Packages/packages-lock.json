@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.xr.interaction.toolkit": "2.5.4"
       },
-      "hash": "7df6f1f9177a98d60db51c874a09f82024129dd1"
+      "hash": "d0cd0da36e9e1187f28f711ec700a20be615bc9f"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

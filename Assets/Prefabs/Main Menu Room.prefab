@@ -137,6 +137,39 @@ LightProbeGroup:
   - {x: 2, y: 3, z: 2.75}
   - {x: 2, y: 1, z: 2.75}
   m_Dering: 1
+--- !u!1 &1378430093094489665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2845061732962750116}
+  m_Layer: 0
+  m_Name: Interactable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2845061732962750116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378430093094489665}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8381723960155280952}
+  - {fileID: 9194075359324212299}
+  m_Father: {fileID: 8509196337025275255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3527647664989595150
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +380,7 @@ Transform:
   - {fileID: 4377679519063440019}
   - {fileID: 6567668000665988594}
   - {fileID: 4176907491676011794}
+  - {fileID: 2845061732962750116}
   - {fileID: 6399802522007866081}
   - {fileID: 4855492741658303479}
   - {fileID: 3516789259389475748}
@@ -562,7 +596,6 @@ Transform:
   - {fileID: 2192279422441678603}
   - {fileID: 5440817877382927938}
   - {fileID: 3567177319780865924}
-  - {fileID: 8381723960155280952}
   - {fileID: 6814571651332128877}
   - {fileID: 1020038052577067945}
   - {fileID: 500498452826648483}
@@ -571,7 +604,6 @@ Transform:
   - {fileID: 5211170180956942524}
   - {fileID: 4567812481110085522}
   - {fileID: 2094672728041249915}
-  - {fileID: 9194075359324212299}
   - {fileID: 3079871205124798731}
   - {fileID: 3281293812894989681}
   m_Father: {fileID: 8509196337025275255}
@@ -948,17 +980,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4176907491676011794}
+    m_TransformParent: {fileID: 2845061732962750116}
     m_Modifications:
     - target: {fileID: 64157054503653030, guid: 79169ad7f0b65514abd63e3f964ba310,
         type: 3}
       propertyPath: m_Name
       value: plastic_monobloc_chair_01_2k
-      objectReference: {fileID: 0}
-    - target: {fileID: 64157054503653030, guid: 79169ad7f0b65514abd63e3f964ba310,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 97787460022569180, guid: 79169ad7f0b65514abd63e3f964ba310,
         type: 3}
@@ -2448,7 +2475,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4176907491676011794}
+    m_TransformParent: {fileID: 2845061732962750116}
     m_Modifications:
     - target: {fileID: 3498701275104862540, guid: 94e81ebe09be92941bf5b8850cf5d5a1,
         type: 3}
@@ -2508,7 +2535,7 @@ PrefabInstance:
     - target: {fileID: 6857261629263881048, guid: 94e81ebe09be92941bf5b8850cf5d5a1,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
