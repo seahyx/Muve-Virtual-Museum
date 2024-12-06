@@ -15,6 +15,8 @@ public class FootstepsSystem : MonoBehaviour
 
     [SerializeField]
     private float minimumVelocity = 0.1f;
+    [SerializeField]
+    private float teleportVolume = 0.8f;
 
     [SerializeField]
     private FootstepSet[] footstepSets;
@@ -22,6 +24,8 @@ public class FootstepsSystem : MonoBehaviour
     private CharacterController controller;
     [SerializeField]
     private TeleportationProvider teleportationProvider;
+    [SerializeField]
+    private ContinuousMoveProviderBase moveProvider;
     private bool isTeleporting = false;
 
     // Start is called before the first frame update
@@ -42,10 +46,13 @@ public class FootstepsSystem : MonoBehaviour
 
             if (audioSource.isPlaying)
                 return;
+    
+            audioSource.volume = controller.velocity.magnitude / moveProvider.moveSpeed;
         }
         else
         {
             isTeleporting = false;
+            audioSource.volume = teleportVolume;
         }
         
         if (hit.normal.y < 0.4f)

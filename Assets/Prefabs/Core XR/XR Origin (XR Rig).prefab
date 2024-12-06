@@ -1409,6 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minimumVelocity: 0.1
+  teleportVolume: 0.8
   footstepSets:
   - groundTag: Tile
     footstepSounds:
@@ -1433,6 +1434,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: a45bdfd5056ed1d4d8f667cc2498ca12, type: 3}
     - {fileID: 8300000, guid: ec4bd5988d7de0c41ab2d9959705dd8b, type: 3}
   teleportationProvider: {fileID: 1748222016861356527}
+  moveProvider: {fileID: 153982007679157697}
 --- !u!82 &1574391358954558466
 AudioSource:
   m_ObjectHideFlags: 0
