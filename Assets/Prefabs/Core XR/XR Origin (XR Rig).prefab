@@ -1408,10 +1408,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03cb6af3507d24755891d11bfc55572f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footstepSounds:
+  minimumVelocity: 0.1
+  footstepSets:
   - groundTag: Tile
     footstepSounds:
-    - {fileID: 8300000, guid: b993df4a93c1d304ab19d8b2eb88c9a5, type: 3}
     - {fileID: 8300000, guid: 5c9bdbce37b06a24fa6ea793bcfd1907, type: 3}
     - {fileID: 8300000, guid: 0909de896e9029541b92ae05fe15e4b6, type: 3}
     - {fileID: 8300000, guid: 6ad0cf00f050bee41a2dee098475dc78, type: 3}
@@ -1419,6 +1419,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 14ae706fef2303e4cb71112dbd5d250b, type: 3}
     - {fileID: 8300000, guid: b995bc1775ea83b4b8f861763e9a1424, type: 3}
     - {fileID: 8300000, guid: d15f7338d693f0343843a6b9096d27f6, type: 3}
+    - {fileID: 8300000, guid: b993df4a93c1d304ab19d8b2eb88c9a5, type: 3}
   - groundTag: Wood
     footstepSounds:
     - {fileID: 8300000, guid: 8e001351cd7065543a068386cde4c960, type: 3}
@@ -1431,6 +1432,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: eea9624d96ae191439615ca598fe01fa, type: 3}
     - {fileID: 8300000, guid: a45bdfd5056ed1d4d8f667cc2498ca12, type: 3}
     - {fileID: 8300000, guid: ec4bd5988d7de0c41ab2d9959705dd8b, type: 3}
+  teleportationProvider: {fileID: 1748222016861356527}
 --- !u!82 &1574391358954558466
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1487,7 +1489,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.8
       inSlope: 0
       outSlope: 0
       tangentMode: 0
