@@ -1,10 +1,14 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class MuseumLabel : MonoBehaviour
 {
     [SerializeField, Tooltip("Artefact description asset.")]
-    private Artefact artefactDescription;
+    public Artefact artefactDescription;
+
+	[SerializeField, Tooltip("Artefact Grab Interactable.")]
+	public XRGrabInteractable artefactInteractable;
 
     [SerializeField, Tooltip("Label text component.")]
     private TextMeshProUGUI labelTMP;
