@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b948c6c15c2aa489afc7f4daa4305e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 3998123560646087366}
   onAudioChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 8444090127656240895}
   - component: {fileID: 4787837100640844742}
   m_Layer: 0
-  m_Name: PlayerSettings
+  m_Name: Player Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
