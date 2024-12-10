@@ -18,7 +18,7 @@ public class NarrationManager : MonoBehaviour
 
 	public static NarrationManager Instance { get; private set; }
 
-	private void Awake()
+	private void Start()
 	{
 		audioSource = GetComponent<AudioSource>();
 		Instance = this;

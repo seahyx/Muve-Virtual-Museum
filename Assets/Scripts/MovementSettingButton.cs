@@ -35,8 +35,8 @@ public class MovementSettingButton : MonoBehaviour
 			return;
 		}
 
-		playerSettings.MovementSetting = playerSettings.MovementSetting == PlayerSettings.MovementType.Smooth
+		playerSettings.MovementSetting = playerSettings.MovementSetting == PlayerSettings.MovementType.Both
 			? PlayerSettings.MovementType.Teleport
-			: PlayerSettings.MovementType.Smooth;
+			: PlayerSettings.MovementType.Both;
 	}
 }

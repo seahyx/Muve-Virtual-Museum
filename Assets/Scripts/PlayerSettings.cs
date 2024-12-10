@@ -21,6 +21,7 @@ public class PlayerSettings : MonoBehaviour
 	{
 		Teleport,
 		Smooth,
+		Both,
 	}
 
 	public static string GetMovementName(MovementType movementType)
@@ -31,6 +32,8 @@ public class PlayerSettings : MonoBehaviour
 				return "Teleportation";
 			case MovementType.Smooth:
 				return "Smooth";
+			case MovementType.Both:
+				return "Both";
 			default:
 				return "Unknown";
 		}
@@ -41,7 +44,7 @@ public class PlayerSettings : MonoBehaviour
 	{
 		get
 		{ 
-			return (MovementType)PlayerPrefs.GetInt(MovementSettingKey, (int)MovementType.Smooth);
+			return (MovementType)PlayerPrefs.GetInt(MovementSettingKey, (int)MovementType.Teleport);
 		}
 		set
 		{
