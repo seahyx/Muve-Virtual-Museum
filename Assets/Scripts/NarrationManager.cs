@@ -22,6 +22,16 @@ public class NarrationManager : MonoBehaviour
 	{
 		audioSource = GetComponent<AudioSource>();
 		Instance = this;
+
+		// Get voice volume from player settings
+		audioSource.volume = PlayerSettings.Instance.VoiceVolumeSetting;
+
+		// Subscribe to the settings changed event
+		PlayerSettings.Instance.OnSettingsChanged.AddListener(() =>
+		{
+			audioSource.volume = PlayerSettings.Instance.VoiceVolumeSetting;
+		});
+
 	}
 
 	public void PlayNarration(AudioClip clip, string title)
