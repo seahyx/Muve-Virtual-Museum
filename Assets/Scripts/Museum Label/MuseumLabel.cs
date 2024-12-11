@@ -62,4 +62,9 @@ public class MuseumLabel : MonoBehaviour
 		}
 		NarrationManager.Instance.PlayNarration(artefactDescription.Narration, artefactDescription.Title);
 	}
+
+	public void RespawnArtefact()
+	{
+		artefactInteractable.GetComponent<FallingNet>().Respawn();
+	}
 }
