@@ -23,7 +23,7 @@ public class FallingNet : MonoBehaviour
 			Respawn();
 		}
 	}
-	private void Respawn()
+	public void Respawn()
 	{
 		transform.position = originalPosition;
 		if (resetRotation)

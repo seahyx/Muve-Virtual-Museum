@@ -8,7 +8,10 @@ public class NarrationManager : MonoBehaviour
 	private AudioSource audioSource;
 
 	[SerializeField, Tooltip("Invoked when the current narration changes.")]
-	private UnityEvent onAudioChanged;
+	private UnityEvent onAudioChanged = new();
+
+	[SerializeField, Tooltip("Stop playing audio if the same narration is already playing.")]
+	private bool stopNarrationIfPlayAgain = true;
 
 	public string CurrentNarrationTitle { get; private set; }
 	public bool IsPlaying => audioSource.isPlaying;
@@ -36,13 +39,16 @@ public class NarrationManager : MonoBehaviour
 
 	public void PlayNarration(AudioClip clip, string title)
 	{
-		if (audioSource.isPlaying)
+		if (audioSource.isPlaying && CurrentNarrationTitle == title)
 		{
 			audioSource.Stop();
 		}
-		CurrentNarrationTitle = title;
-		audioSource.clip = clip;
-		audioSource.Play();
-		onAudioChanged.Invoke();
+		else
+		{
+			CurrentNarrationTitle = title;
+			audioSource.clip = clip;
+			audioSource.Play();
+			onAudioChanged.Invoke();
+		}
 	}
 }
