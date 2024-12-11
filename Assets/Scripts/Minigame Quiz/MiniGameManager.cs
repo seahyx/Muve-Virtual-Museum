@@ -10,15 +10,15 @@ public class MiniGameManager : MonoBehaviour
     {
         public int Index;
         public string CorrectAnswer;
-        public string QuestionClue;
-        public Sprite QuestionImage;
+        public string ClueText;
+        public Sprite ClueImage;
 
         public Question(int idx, string ans, string clue, Sprite image)
         {
             Index = idx;
             CorrectAnswer = ans;
-            QuestionClue = clue;
-			QuestionImage = image;
+            ClueText = clue;
+			ClueImage = image;
 		}
     }
 
@@ -82,8 +82,9 @@ public class MiniGameManager : MonoBehaviour
         {
             museumLabel.artefactInteractable.firstSelectEntered.AddListener((eventArgs) =>
                 OnArtefactSelected(museumLabel.artefactInteractable, museumLabel.artefactDescription.Title));
-        }
-    }
+		}
+		Debug.Log($"Total Museum Labels in scene: {museumLabels.Length}");
+	}
 
     private void Update()
     {
@@ -99,10 +100,14 @@ public class MiniGameManager : MonoBehaviour
         quizRunning = true;
         int[] quizIndices = GenerateQuestionIndices();
         questionList.Clear();
-        for (int i = 0; i < quizIndices.Length; i++)
+
+		Debug.Log("Quiz Started, quiz order:");
+		for (int i = 0; i < quizIndices.Length; i++)
         {
 			var arteDesc = museumLabels[quizIndices[i]].artefactDescription;
 			questionList.Add(new Question(i, arteDesc.Title, arteDesc.MiniGameDescription, arteDesc.MiniGameImage));
+
+            Debug.Log($"{i}, {arteDesc.Title}, {arteDesc.MiniGameDescription}, {arteDesc.MiniGameImage}");
 		}
         currentQuestionIndex = 0;
         totalScore = 0;
@@ -115,7 +120,9 @@ public class MiniGameManager : MonoBehaviour
     {
 		quizRunning = false;
 		DisplayResults();
-    }
+
+        Debug.Log($"Quiz Completed, Total Score: {totalScore}");
+	}
 
     public void NextQuestion()
     {
@@ -123,16 +130,16 @@ public class MiniGameManager : MonoBehaviour
         timerCurrentQuestion = 0;
     }
 
-    private void DisplayQuestion(int currentQuestion)
+    private void DisplayQuestion(int currentQuestionIndex)
     {
-        if (currentQuestion >= questionList.Count())
+        if (currentQuestionIndex >= questionList.Count())
         {
             StopQuiz();
             return;
         }
 
-        // Do some shit
-        OnNextQuestion.Invoke();
+        Debug.Log($"Displaying Question: {currentQuestionIndex}, {currentQuestion.CorrectAnswer}, {currentQuestion.ClueText}, {currentQuestion.ClueImage}");
+		OnNextQuestion.Invoke();
     }
 
     private void DisplayResults()

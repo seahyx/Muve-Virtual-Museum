@@ -38,10 +38,10 @@ public class QuizRow : MonoBehaviour
 			switch (rowType)
 			{
 				case QuizRowType.Text:
-					questionClueTMP.text = _question.QuestionClue;
+					questionClueTMP.text = _question.ClueText;
 					break;
 				case QuizRowType.Image:
-					questionClueImage.sprite = _question.QuestionImage;
+					questionClueImage.sprite = _question.ClueImage;
 					break;
 				case QuizRowType.Completed:
 					questionClueTMP.text = _question.CorrectAnswer;

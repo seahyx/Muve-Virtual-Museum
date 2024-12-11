@@ -57,7 +57,7 @@ public class ClipboardQuizController : MonoBehaviour
 
 		// Create a new quiz row
 		QuizRow quizRow;
-		if (question.QuestionImage == null)
+		if (question.ClueImage == null)
 		{
 			quizRow = Instantiate(quizRowPrefab, quizListContent.transform);
 			quizRow.Question = question;
