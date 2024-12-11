@@ -31739,6 +31739,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1401881643847248909, guid: d9d8c0de614f9ed419477445d8909f89,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2083856305766451114, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -31807,7 +31812,7 @@ PrefabInstance:
     - target: {fileID: 4095083908089038912, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1160002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4095083908089038912, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
@@ -31817,7 +31822,7 @@ PrefabInstance:
     - target: {fileID: 4095083908089038912, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05499957
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4095083908089038912, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
@@ -31852,6 +31857,11 @@ PrefabInstance:
     - target: {fileID: 4095083908089038912, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345887603296572601, guid: d9d8c0de614f9ed419477445d8909f89,
+        type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6314144827785705134, guid: d9d8c0de614f9ed419477445d8909f89,
@@ -31892,6 +31902,11 @@ PrefabInstance:
     - target: {fileID: 7118606926915052704, guid: d9d8c0de614f9ed419477445d8909f89,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8036108969567076450, guid: d9d8c0de614f9ed419477445d8909f89,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8807207154457442072, guid: d9d8c0de614f9ed419477445d8909f89,
