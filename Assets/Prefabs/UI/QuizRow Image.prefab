@@ -520,6 +520,7 @@ GameObject:
   - component: {fileID: 206730649145541853}
   - component: {fileID: 3741207798392667200}
   - component: {fileID: 3759823019968404479}
+  - component: {fileID: 6026272581993728119}
   m_Layer: 0
   m_Name: QuizRow Image
   m_TagString: Untagged
@@ -595,3 +596,20 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &6026272581993728119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221872439033801723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc1f6a96fa591c458b31c0ab78508a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rowType: 1
+  questionNumTMP: {fileID: 7178157357737620911}
+  questionClueTMP: {fileID: 0}
+  questionClueImage: {fileID: 3764848973097615234}
+  checkbox: {fileID: 2354797113454914859}

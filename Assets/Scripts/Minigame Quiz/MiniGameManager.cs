@@ -8,14 +8,18 @@ public class MiniGameManager : MonoBehaviour
 {
     public class Question
     {
+        public int Index;
         public string CorrectAnswer;
         public string QuestionClue;
+        public Sprite QuestionImage;
 
-        public Question(string CorrectAnswer, string QuestionClue)
+        public Question(int idx, string ans, string clue, Sprite image)
         {
-            this.CorrectAnswer = CorrectAnswer;
-            this.QuestionClue = QuestionClue;
-        }
+            Index = idx;
+            CorrectAnswer = ans;
+            QuestionClue = clue;
+			QuestionImage = image;
+		}
     }
 
     //[SerializeField]
@@ -46,7 +50,7 @@ public class MiniGameManager : MonoBehaviour
     /// <summary>
     /// Currently active question.
     /// </summary>
-    public int currentQuestion { get; private set; } = 0;
+    public int currentQuestionIndex { get; private set; } = 0;
     /// <summary>
     /// Total score of the quiz.
     /// </summary>
@@ -59,9 +63,16 @@ public class MiniGameManager : MonoBehaviour
     /// Total time elapsed since the quiz started.
     /// </summary>
     public float timerTotal { get; private set; } = 0;
+    /// <summary>
+    /// List of questions.
+    /// </summary>
+	public List<Question> questionList { get; private set; } = new();
+    /// <summary>
+    /// Current question.
+    /// </summary>
+    public Question currentQuestion => questionList[currentQuestionIndex];
 
-    MuseumLabel[] museumLabels;
-    List<Question> questionList = new();
+	MuseumLabel[] museumLabels;
     bool quizRunning = false;
 
     private void Start()
@@ -88,21 +99,21 @@ public class MiniGameManager : MonoBehaviour
         quizRunning = true;
         int[] quizIndices = GenerateQuestionIndices();
         questionList.Clear();
-        foreach(int quizIndex in quizIndices)
+        for (int i = 0; i < quizIndices.Length; i++)
         {
-            var arteDesc = museumLabels[quizIndex].artefactDescription;
-            questionList.Add(new Question(arteDesc.Title, arteDesc.MiniGameDescription));
-        }
-        currentQuestion = 0;
+			var arteDesc = museumLabels[quizIndices[i]].artefactDescription;
+			questionList.Add(new Question(i, arteDesc.Title, arteDesc.MiniGameDescription, arteDesc.MiniGameImage));
+		}
+        currentQuestionIndex = 0;
         totalScore = 0;
         timerCurrentQuestion = 0;
         timerTotal = 0;
-        DisplayQuestion(currentQuestion);
+        DisplayQuestion(currentQuestionIndex);
     }
 
     public void NextQuestion()
     {
-        DisplayQuestion(currentQuestion++);
+        DisplayQuestion(currentQuestionIndex++);
         timerCurrentQuestion = 0;
     }
 
@@ -125,7 +136,7 @@ public class MiniGameManager : MonoBehaviour
 
     private void AnswerQuestion(string answer)
     {
-        if(questionList[currentQuestion].CorrectAnswer == answer)
+        if(questionList[currentQuestionIndex].CorrectAnswer == answer)
         {
             totalScore += CalculateScore(timerCurrentQuestion);
             NextQuestion();
