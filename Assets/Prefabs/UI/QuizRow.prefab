@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 2499865083440700675}
   - component: {fileID: 8262774062319738804}
   - component: {fileID: 7136228393447225869}
+  - component: {fileID: 8073158231880653651}
   m_Layer: 0
   m_Name: Clue Text
   m_TagString: Untagged
@@ -210,6 +211,26 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8073158231880653651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154404466892787709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &4490538643613713724
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968920714962317647}
   - component: {fileID: 4343520097701497298}
-  - component: {fileID: 8696815728673208311}
+  - component: {fileID: 1849085309881513741}
   m_Layer: 0
   m_Name: QuizRow
   m_TagString: Untagged
@@ -614,7 +635,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &8696815728673208311
+--- !u!114 &1849085309881513741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -623,8 +644,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9058371916015214185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
