@@ -32,5 +32,7 @@ public class FallingNet : MonoBehaviour
 		}
 		if (TryGetComponent(out Rigidbody rigidbody))
 			rigidbody.velocity = Vector3.zero;
+		if (TryGetComponent(out CharacterController characterController))
+			characterController.SimpleMove(Vector3.zero);
 	}
 }
