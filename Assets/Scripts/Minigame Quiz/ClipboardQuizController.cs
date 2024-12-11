@@ -70,4 +70,16 @@ public class ClipboardQuizController : MonoBehaviour
 		quizRow.transform.SetAsFirstSibling();
 		currentQuizRow = quizRow;
 	}
+
+	public void StartQuiz()
+	{
+		ClearList();
+		manager.StartQuiz();
+	}
+
+	public void StopQuiz()
+	{
+		ClearList();
+		manager.StopQuiz();
+	}
 }

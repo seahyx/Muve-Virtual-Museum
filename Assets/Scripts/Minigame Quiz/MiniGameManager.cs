@@ -111,6 +111,12 @@ public class MiniGameManager : MonoBehaviour
         DisplayQuestion(currentQuestionIndex);
     }
 
+    public void StopQuiz()
+    {
+		quizRunning = false;
+		DisplayResults();
+    }
+
     public void NextQuestion()
     {
         DisplayQuestion(currentQuestionIndex++);
@@ -121,7 +127,7 @@ public class MiniGameManager : MonoBehaviour
     {
         if (currentQuestion >= questionList.Count())
         {
-            DisplayResults();
+            StopQuiz();
             return;
         }
 
