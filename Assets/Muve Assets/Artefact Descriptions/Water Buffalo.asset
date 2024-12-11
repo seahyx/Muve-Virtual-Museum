@@ -24,5 +24,6 @@ MonoBehaviour:
     they present important developments from the earlier ceramics seen at left, with
     their use of multiple colors on a single vessel, incised and rope-marked patterns
     for surface texture, and inventive forms gracefully standing on several feet.
-  MiniGameDescription: 
+  MiniGameDescription: First domesticated animals of Thailand
+  MiniGameImage: {fileID: 0}
   Narration: {fileID: 8300000, guid: 48dd8b016c97e4f3b8f40fad42c3fb4f, type: 3}

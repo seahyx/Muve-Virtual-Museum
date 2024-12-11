@@ -28,3 +28,5 @@ MonoBehaviour:
     the buddha to whom Avalokiteshvara attends. Believers might look to a sculpture
     like this as a guide for their own journeys toward enlightenment."
   MiniGameDescription: 
+  MiniGameImage: {fileID: 21300000, guid: 63c3285e5b7eff342abb4b83ccc60f67, type: 3}
+  Narration: {fileID: 8300000, guid: 5734cecbe8b3b49458b4a41beb2de67c, type: 3}

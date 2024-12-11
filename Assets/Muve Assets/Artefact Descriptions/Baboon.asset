@@ -24,3 +24,5 @@ MonoBehaviour:
     artwork it is in remarkable condition, and though the animal is small in size,
     its posture and expression command authority.
   MiniGameDescription: 
+  MiniGameImage: {fileID: 21300000, guid: 3e71668d88714824f941c21b3d386cbb, type: 3}
+  Narration: {fileID: 8300000, guid: d67bad4da76064f1a8a75f945b298f04, type: 3}

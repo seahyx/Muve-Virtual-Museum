@@ -25,3 +25,5 @@ MonoBehaviour:
     The word for piggy bank in Eastern Java is tj\xE8l\xE8ngan, meaning \u2018wild
     boar."
   MiniGameDescription: 
+  MiniGameImage: {fileID: 21300000, guid: 61bb41d4aa52a724ca1436e378d26425, type: 3}
+  Narration: {fileID: 8300000, guid: b3057c93094b64749af45caa9eff16da, type: 3}

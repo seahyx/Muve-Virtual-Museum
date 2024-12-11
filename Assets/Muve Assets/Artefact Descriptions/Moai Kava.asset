@@ -25,4 +25,6 @@ MonoBehaviour:
     of starving ancestors or demons. 19th century travelers reported that these figures
     were worn hanging around the necks of men who took part in the ritual dances
     during public ceremonies."
-  MiniGameDescription: 
+  MiniGameDescription: Mini Easter Island
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 4be2969b012724a8da1a777093d6a746, type: 3}

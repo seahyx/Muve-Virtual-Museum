@@ -26,4 +26,7 @@ MonoBehaviour:
     poor man, thou hast done for me.\"\" The painting\u2019s monumental scale, refined
     coloring, and expressive figures reflect the influence of Italian painting, particularly
     Sienese painting, of which a number of examples are displayed nearby."
-  MiniGameDescription: 
+  MiniGameDescription: What thou hast done for that poor man, thou hast done for
+    me.
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: a531cec8a616545279a3bd95449393b6, type: 3}

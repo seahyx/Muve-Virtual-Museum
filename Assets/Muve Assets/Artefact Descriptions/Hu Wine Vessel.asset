@@ -26,3 +26,5 @@ MonoBehaviour:
     arranged with regard to hierarchy and strict symmetry. The subject here appears
     secular rather than religious."
   MiniGameDescription: 
+  MiniGameImage: {fileID: 21300000, guid: 11068aa95c3085b4abcb9edf18dd7705, type: 3}
+  Narration: {fileID: 8300000, guid: 4c75ea6a049214c0c88b4c3f4db22155, type: 3}

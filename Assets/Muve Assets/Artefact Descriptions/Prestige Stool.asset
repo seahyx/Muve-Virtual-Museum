@@ -25,4 +25,7 @@ MonoBehaviour:
     the palace. The leopard imagery confirms the object\u2019s royal status. It alludes
     to the belief that the king could temporarily transform himself into this feared
     predator."
-  MiniGameDescription: 
+  MiniGameDescription: Royal travelling stool for the king that can transform into
+    a leopard
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 5fe24396f55ea4a409401bbcc49b146e, type: 3}

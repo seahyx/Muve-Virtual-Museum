@@ -24,3 +24,5 @@ MonoBehaviour:
     1890, moving to Auvers, near Paris, where he continued to paint until his death
     by suicide in July."
   MiniGameDescription: 
+  MiniGameImage: {fileID: 21300000, guid: d72086af1d5542d4dbd59cd3bded7441, type: 3}
+  Narration: {fileID: 8300000, guid: f6a7a4c1f713a449eb3091e26311f26e, type: 3}

@@ -20,4 +20,6 @@ MonoBehaviour:
     is known for sketching directly on his canvas, adding layers of paint to create
     the final product. This sketch aesthetic is what helped bring about the Impressionist
     movement.
-  MiniGameDescription: 
+  MiniGameDescription: Impressionist movement is all the hype after this painting
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: fa98e16ed832844cdaa4e82c87c57675, type: 3}

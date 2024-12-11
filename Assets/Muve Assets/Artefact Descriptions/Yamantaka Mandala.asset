@@ -30,4 +30,6 @@ MonoBehaviour:
     The museum thanks the Tibetan American
     Foundation of Minnesota for bringing the Gyuto monks to Minnesota and for their
     efforts to preserve Tibetan cultural traditions.'
-  MiniGameDescription: 
+  MiniGameDescription: For the honor of 1.2 million tibetans
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: e93217e6205e87c4896600812131a9e7, type: 3}

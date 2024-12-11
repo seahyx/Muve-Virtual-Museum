@@ -28,4 +28,6 @@ MonoBehaviour:
     deceased in the afterlife. This spirited horse, a blend of ideal and real in
     its modeling, captures the spirit of the fabled \u201Ccelestial horses\u201D
     of the Han dynasty."
-  MiniGameDescription: 
+  MiniGameDescription: Equus ferus caballus
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 5caa26d3b13c12c47a94d432dacf496e, type: 3}

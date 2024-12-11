@@ -25,4 +25,6 @@ MonoBehaviour:
     known as Go\xFBt Grec (Greek taste) in the 1760s and 1770s. These beautifully
     chased gilt-bronze mounts feature classical Greco-Roman motifs such as lion masks,
     acanthus and laurel leaves, and pilasters."
-  MiniGameDescription: 
+  MiniGameDescription: Chinese with Greek taste
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 8d8a579a040e64b19bafd0872545366f, type: 3}

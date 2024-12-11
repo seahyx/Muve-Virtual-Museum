@@ -21,4 +21,6 @@ MonoBehaviour:
     bodies. The forceful comma-shaped tails and their jaunty tufts, as well as the
     double-rope patterns on the moustaches, are typical elements of Warring States
     period art.
-  MiniGameDescription: 
+  MiniGameDescription: 5th in the chinese zodiac
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 72c168f5884904ef49effa1000e3fb96, type: 3}

@@ -23,4 +23,6 @@ MonoBehaviour:
     with scales suggested by brush strokes, and gills through sweeping lines. It
     is rounded and fat, attesting to flush times and an abundance of food. Fish were
     a key component of the Nazca diet and were often shown in their art.
-  MiniGameDescription: 
+  MiniGameDescription: Nasca people liked to eat fish
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 93a132f1127d17e4fb2e87380c064312, type: 3}

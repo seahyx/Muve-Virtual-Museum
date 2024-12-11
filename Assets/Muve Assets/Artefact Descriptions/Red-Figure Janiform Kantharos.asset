@@ -23,4 +23,6 @@ MonoBehaviour:
     the satyr, a relatively common type on such vessels. The glossy black face and
     red hair on the other side are more unusual, apparently meant to show an older
     African man, with white beard and eyebrows, and wrinkles around the eyes.
-  MiniGameDescription: 
+  MiniGameDescription: A cup for Dionysos
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 52c212e35340c4507a507f81d335be45, type: 3}

@@ -32,4 +32,7 @@ MonoBehaviour:
     head of a ruyi scepter, and a narrow frieze of small lotus scrolls. The main
     body, below a band of C-scrolls, is decorated with scrolling, stylized lotuses.
     The foot, base, and mouth rim are gilt."
-  MiniGameDescription: 
+  MiniGameDescription: An object from China made during the time  of China's two
+    longest-reigning emperors
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 64d0e217ea7c44dd189ad26db57fe4ce, type: 3}

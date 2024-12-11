@@ -26,4 +26,6 @@ MonoBehaviour:
     a winter day. He added slashes of purple and searing orange through the trees
     to give the feeling of the long rays of the sun transformed through the brittle
     forest."
-  MiniGameDescription: 
+  MiniGameDescription: Modernist painting from 1910s
+  MiniGameImage: {fileID: 0}
+  Narration: {fileID: 8300000, guid: 567e7cea6a6f14579a5f28431d65e49e, type: 3}
