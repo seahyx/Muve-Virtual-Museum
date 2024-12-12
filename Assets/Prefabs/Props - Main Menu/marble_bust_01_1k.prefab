@@ -83,6 +83,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1998955655055932670}
+    - targetCorrespondingSourceObject: {fileID: 851007600454473606, guid: ac5bc8e344b21714ab47c7643fe12f16,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9063158188467169849}
   m_SourcePrefab: {fileID: -4161369568681901532, guid: ac5bc8e344b21714ab47c7643fe12f16,
     type: 3}
 --- !u!1 &6857261629263881048 stripped
@@ -317,3 +321,22 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &9063158188467169849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6857261629263881048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: b2c08accc97615c459dbcc99062d841a, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  cooldown: 0.1

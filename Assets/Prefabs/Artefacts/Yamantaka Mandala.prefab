@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 8622185312269078542}
   - component: {fileID: 6886016516404682248}
   - component: {fileID: 5805003202876138861}
+  - component: {fileID: 1408800404233438201}
   m_Layer: 0
   m_Name: Yamantaka Mandala
   m_TagString: Untagged
@@ -499,7 +500,7 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.002580762, y: 0.1173186, z: 0.011609912}
   m_Size: 2.387959
-  m_FadeMode: 1
+  m_FadeMode: 0
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
@@ -536,6 +537,26 @@ MonoBehaviour:
   - {fileID: 6377385770912663433}
   - {fileID: 6331738466883875978}
   - {fileID: 7565737273337838626}
+--- !u!114 &1408800404233438201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682967381712990507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: 7aad5bdc63c899546a1956442377a365, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  audioPitch: 0.8
+  cooldown: 0.1
 --- !u!1 &2752097331910552902
 GameObject:
   m_ObjectHideFlags: 0

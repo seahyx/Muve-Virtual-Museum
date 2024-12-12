@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 6123355301458709591}
   - component: {fileID: 6871393710748622193}
   - component: {fileID: 1406835131615444355}
+  - component: {fileID: 9210575980798301831}
   m_Layer: 0
   m_Name: Piggy Bank
   m_TagString: Untagged
@@ -752,19 +753,19 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.00341098, y: 0.08755217, z: -0.017557792}
   m_Size: 0.26022908
-  m_FadeMode: 1
+  m_FadeMode: 0
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.3345829
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1944828871785500678}
-  - screenRelativeHeight: 0.25
+  - screenRelativeHeight: 0.15099694
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2890423756469945925}
-  - screenRelativeHeight: 0.12
+  - screenRelativeHeight: 0.04559512
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5423921499244997337}
@@ -788,6 +789,25 @@ MonoBehaviour:
   originalRenderers:
   - {fileID: 2990024384618806234}
   - {fileID: 3923375229418999727}
+--- !u!114 &9210575980798301831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6854268739712288339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: cd2b5a4eab0b39b48baeecbb5743ec2c, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  cooldown: 0.1
 --- !u!1 &7157679373568086041
 GameObject:
   m_ObjectHideFlags: 0

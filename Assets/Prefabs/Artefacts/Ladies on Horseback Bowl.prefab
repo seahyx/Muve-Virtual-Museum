@@ -481,6 +481,7 @@ GameObject:
   - component: {fileID: 5115266477983242831}
   - component: {fileID: 8951654873288008775}
   - component: {fileID: 1070548684021703892}
+  - component: {fileID: 5951091685795213586}
   m_Layer: 0
   m_Name: Ladies on Horseback Bowl
   m_TagString: Untagged
@@ -817,19 +818,19 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.00012577698, y: 0.043009106, z: -0.00068523735}
   m_Size: 0.18567935
-  m_FadeMode: 1
+  m_FadeMode: 0
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.5
+  - screenRelativeHeight: 0.3320358
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5887524179397749403}
-  - screenRelativeHeight: 0.2
+  - screenRelativeHeight: 0.12948962
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6819293786970082443}
-  - screenRelativeHeight: 0.08
+  - screenRelativeHeight: 0.030831588
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 8721897140273780615}
@@ -852,6 +853,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalRenderers:
   - {fileID: 899501609242500778}
+--- !u!114 &5951091685795213586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358558446073717546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: c353e678c2811b6408a7a245219e107a, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  audioPitch: 1.5
+  cooldown: 0.1
 --- !u!1 &8491021988486008122
 GameObject:
   m_ObjectHideFlags: 0

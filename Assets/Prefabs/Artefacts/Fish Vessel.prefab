@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 1080225085156966990}
   - component: {fileID: 4328996716528861502}
   - component: {fileID: 9185168762933442368}
+  - component: {fileID: 4332686375853939097}
   m_Layer: 0
   m_Name: Fish Vessel
   m_TagString: Untagged
@@ -589,19 +590,19 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: -0.00020415336, y: 0.06503117, z: -0.0000013038516}
   m_Size: 0.21264613
-  m_FadeMode: 1
-  m_AnimateCrossFading: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.40141416
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1458331327703766996}
-  - screenRelativeHeight: 0.25
+  - screenRelativeHeight: 0.1741441
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4671970002463735487}
-  - screenRelativeHeight: 0.12
+  - screenRelativeHeight: 0.047516372
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 8525991895718520702}
@@ -624,6 +625,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalRenderers:
   - {fileID: 2952093633600326505}
+--- !u!114 &4332686375853939097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492889726796690603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: cd2b5a4eab0b39b48baeecbb5743ec2c, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  cooldown: 0.1
 --- !u!1 &7649052998030822846
 GameObject:
   m_ObjectHideFlags: 0

@@ -982,6 +982,7 @@ GameObject:
   - component: {fileID: 8307770017459085992}
   - component: {fileID: 1398649248272663382}
   - component: {fileID: 356713928450714834}
+  - component: {fileID: 7042056546868203086}
   m_Layer: 3
   m_Name: Clipboard
   m_TagString: Untagged
@@ -1358,6 +1359,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7042056546868203086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3907512470839429729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: 8350c2ae2b8fbba4799a79ca44f8598e, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 4
 --- !u!1 &4176335112116739315
 GameObject:
   m_ObjectHideFlags: 0

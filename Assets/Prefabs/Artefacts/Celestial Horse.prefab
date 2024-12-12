@@ -693,6 +693,7 @@ GameObject:
   - component: {fileID: 1353896045188253326}
   - component: {fileID: 3377919107863459697}
   - component: {fileID: 865681649173070102}
+  - component: {fileID: 7353723987512742138}
   m_Layer: 0
   m_Name: Celestial Horse
   m_TagString: Untagged
@@ -1035,23 +1036,23 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.029777199, y: 0.6280746, z: -0.013237998}
   m_Size: 1.2724551
-  m_FadeMode: 1
+  m_FadeMode: 0
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 1
+  - screenRelativeHeight: 0.7
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7953945052599353983}
-  - screenRelativeHeight: 0.5
+  - screenRelativeHeight: 0.4
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6404022417354297475}
-  - screenRelativeHeight: 0.2
+  - screenRelativeHeight: 0.18
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4085992188747104435}
-  - screenRelativeHeight: 0.05
+  - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3728453682118755806}
@@ -1075,6 +1076,26 @@ MonoBehaviour:
   - {fileID: 2171462603428608904}
   - {fileID: 7921943182740074864}
   - {fileID: 345417316769084414}
+--- !u!114 &7353723987512742138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911989764419730642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: 6b16d41317ffb7f4f963895af69513d8, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  audioPitch: 0.75
+  cooldown: 0.1
 --- !u!1 &7172917404684591921
 GameObject:
   m_ObjectHideFlags: 0

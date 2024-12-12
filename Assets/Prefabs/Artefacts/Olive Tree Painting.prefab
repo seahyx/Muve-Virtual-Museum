@@ -398,6 +398,7 @@ GameObject:
   - component: {fileID: 661415977098522915}
   - component: {fileID: 592315557569130743}
   - component: {fileID: 7429514416195390906}
+  - component: {fileID: 8495202777272555264}
   m_Layer: 0
   m_Name: Olive Tree Painting
   m_TagString: Untagged
@@ -733,19 +734,19 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: -0.0038468838, y: 0.00012904406, z: 0.00940016}
   m_Size: 1.2391781
-  m_FadeMode: 1
+  m_FadeMode: 0
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.5
+  - screenRelativeHeight: 0.3848216
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7128617835366873352}
-  - screenRelativeHeight: 0.2
+  - screenRelativeHeight: 0.15970561
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5104375157179702958}
-  - screenRelativeHeight: 0.08
+  - screenRelativeHeight: 0.04096181
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7225574367437359549}
@@ -768,6 +769,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalRenderers:
   - {fileID: 3226511106513470196}
+--- !u!114 &8495202777272555264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911376159543528687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: 4047aaaa19814be44ae0f40e9b70e1fd, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  audioPitch: 0.76
+  cooldown: 0.1
 --- !u!1 &8021000683886109524
 GameObject:
   m_ObjectHideFlags: 0

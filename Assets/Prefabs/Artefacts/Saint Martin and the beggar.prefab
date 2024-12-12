@@ -449,6 +449,7 @@ GameObject:
   - component: {fileID: 3747061647194807361}
   - component: {fileID: 7808162611758598534}
   - component: {fileID: 1123001982921663972}
+  - component: {fileID: 8829964481562443901}
   m_Layer: 0
   m_Name: Saint Martin and the beggar
   m_TagString: Untagged
@@ -784,19 +785,19 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: -0.0113764405, y: -0.0017422438, z: -0.0046965135}
   m_Size: 1.450325
-  m_FadeMode: 1
+  m_FadeMode: 0
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.5
+  - screenRelativeHeight: 0.36590508
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7133119786193615967}
-  - screenRelativeHeight: 0.2
+  - screenRelativeHeight: 0.14588816
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6127334133679554436}
-  - screenRelativeHeight: 0.08
+  - screenRelativeHeight: 0.03829826
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 384686041833890069}
@@ -819,6 +820,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalRenderers:
   - {fileID: 3967672515278030662}
+--- !u!114 &8829964481562443901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5590374253369478502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: 80213e79ca9796143b5ee8247490a268, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  audioPitch: 0.94
+  cooldown: 0.1
 --- !u!1 &6468520291593092306
 GameObject:
   m_ObjectHideFlags: 0
