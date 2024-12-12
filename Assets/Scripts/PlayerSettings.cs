@@ -29,11 +29,11 @@ public class PlayerSettings : MonoBehaviour
 		switch (movementType)
 		{
 			case MovementType.Teleport:
-				return "Teleportation";
+				return "Mode: Teleport";
 			case MovementType.Smooth:
-				return "Smooth";
+				return "Mode: Smooth";
 			case MovementType.Both:
-				return "Both";
+				return "Mode: Both";
 			default:
 				return "Unknown";
 		}

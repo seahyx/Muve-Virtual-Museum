@@ -71,20 +71,9 @@ public class MiniGameManager : MonoBehaviour
 	/// Current question.
 	/// </summary>
 	public Question currentQuestion => questionList[currentQuestionIndex];
-
-	MuseumLabel[] museumLabels;
+	
+	List<MuseumLabel> activeMuseumLabels = new();
 	bool quizRunning = false;
-
-	private void Start()
-	{
-		museumLabels = Object.FindObjectsByType<MuseumLabel>(FindObjectsSortMode.None);
-		foreach (MuseumLabel museumLabel in museumLabels)
-		{
-			museumLabel.artefactInteractable.firstSelectEntered.AddListener((eventArgs) =>
-				OnArtefactSelected(museumLabel.artefactInteractable, museumLabel.artefactDescription.Title));
-		}
-		Debug.Log($"Total Museum Labels in scene: {museumLabels.Length}");
-	}
 
 	private void Update()
 	{
@@ -98,6 +87,20 @@ public class MiniGameManager : MonoBehaviour
 	public void StartQuiz()
 	{
 		quizRunning = true;
+
+		// Get the labels
+		MuseumLabel[] museumLabels = Object.FindObjectsByType<MuseumLabel>(FindObjectsSortMode.None);
+		activeMuseumLabels.Clear();
+		foreach (MuseumLabel museumLabel in museumLabels)
+		{
+			if (museumLabel.isActiveAndEnabled == false)
+				continue;
+			activeMuseumLabels.Add(museumLabel);
+			museumLabel.artefactInteractable.firstSelectEntered.AddListener((eventArgs) =>
+				OnArtefactSelected(museumLabel.artefactInteractable, museumLabel.artefactDescription.Title));
+		}
+		Debug.Log($"Total Active Museum Labels in scene: {activeMuseumLabels.Count}");
+
 		int[] quizIndices = GenerateQuestionIndices();
 		questionList.Clear();
 
@@ -126,7 +129,8 @@ public class MiniGameManager : MonoBehaviour
 
 	public void NextQuestion()
 	{
-		DisplayQuestion(currentQuestionIndex++);
+		currentQuestionIndex++;
+		DisplayQuestion(currentQuestionIndex);
 		timerCurrentQuestion = 0;
 	}
 
@@ -152,6 +156,7 @@ public class MiniGameManager : MonoBehaviour
 		if (questionList[currentQuestionIndex].CorrectAnswer == answer)
 		{
 			totalScore += CalculateScore(timerCurrentQuestion);
+			Debug.Log($"Correct Answer: {answer}, Score: {totalScore}");
 			NextQuestion();
 		}
 	}
@@ -159,7 +164,7 @@ public class MiniGameManager : MonoBehaviour
 	private int[] GenerateQuestionIndices()
 	{
 		// Randomly Selected maxQuestions number of items from museumLabels
-		int[] arr = Enumerable.Range(0, museumLabels.Count()).ToArray();
+		int[] arr = Enumerable.Range(0, activeMuseumLabels.Count).ToArray();
 
 		// Shuffle the array
 		System.Random rng = new System.Random();

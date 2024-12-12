@@ -14,6 +14,8 @@ public class ClipboardQuizController : MonoBehaviour
 	private TextMeshProUGUI scoreTMP;
 	[SerializeField, Tooltip("Result text.")]
 	private TextMeshProUGUI resultTMP;
+	[SerializeField, Tooltip("Quiz tab controller.")]
+	private QuizTabController quizTabController;
 
 	[SerializeField, Tooltip("Quiz row prefab.")]
 	private QuizRow quizRowPrefab;
@@ -22,13 +24,20 @@ public class ClipboardQuizController : MonoBehaviour
 	[SerializeField, Tooltip("Quiz row completed prefab.")]
 	private QuizRow quizRowCompletedPrefab;
 
+	[SerializeField]
+	private AudioClip correctSound;
+	[SerializeField]
+	private AudioClip completeSound;
+
 	private List<QuizRow> completedQuizRows = new();
 	private QuizRow currentQuizRow;
+	private AudioSource audioSource;
 
 	private void Start()
 	{
 		manager.OnNextQuestion.AddListener(OnNextQuestion);
 		manager.OnQuizCompleted.AddListener(OnQuizCompleted);
+		audioSource = GetComponent<AudioSource>();
 	}
 
 	private void ClearList()
@@ -61,6 +70,9 @@ public class ClipboardQuizController : MonoBehaviour
 			completedRow.transform.SetSiblingIndex(1);
 			completedQuizRows.Add(completedRow);
 			Destroy(currentQuizRow.gameObject);
+
+			// Play audio
+			audioSource.PlayOneShot(correctSound);
 		}
 
 		// Create a new quiz row
@@ -93,9 +105,14 @@ public class ClipboardQuizController : MonoBehaviour
 
 	private void OnQuizCompleted()
 	{
+		// Play audio
+		audioSource.PlayOneShot(completeSound);
+
+		quizTabController.SwitchToResultPage();
+
 		string result =
-			$"Artefacts: {manager.currentQuestionIndex + 1} / {manager.questionList.Count}\n" +
-			$"Score: {manager.totalScore}" +
+			$"Artefacts: {manager.currentQuestionIndex} / {manager.questionList.Count}\n" +
+			$"Score: {manager.totalScore}\n" +
 			$"Remarks: {manager.GetScoreRemarks()}";
 		resultTMP.text = result;
 	}

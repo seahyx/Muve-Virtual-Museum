@@ -65,6 +65,7 @@ MonoBehaviour:
   m_UIScroll: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
   m_SmoothMotionEnabled: 1
+  m_TeleportEnabled: 0
   m_SmoothTurnEnabled: 0
   m_UIScrollingEnabled: 1
   m_RayInteractorChanged:
@@ -414,6 +415,7 @@ MonoBehaviour:
   m_UIScroll: {fileID: -6756787485274679044, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
   m_SmoothMotionEnabled: 0
+  m_TeleportEnabled: 0
   m_SmoothTurnEnabled: 0
   m_UIScrollingEnabled: 1
   m_RayInteractorChanged:
@@ -1159,7 +1161,7 @@ MonoBehaviour:
   m_TurnAmount: 45
   m_DebounceTime: 0.2
   m_EnableTurnLeftRight: 1
-  m_EnableTurnAround: 1
+  m_EnableTurnAround: 0
   m_DelayTime: 0
   m_LeftHandSnapTurnAction:
     m_UseReference: 1
@@ -1244,7 +1246,7 @@ GameObject:
   - component: {fileID: 5185263867195421635}
   - component: {fileID: 3100557846533639361}
   - component: {fileID: 1574391358954558466}
-  m_Layer: 2
+  m_Layer: 9
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1307,7 +1309,7 @@ CharacterController:
   m_Height: 1.36144
   m_Radius: 0.1
   m_SlopeLimit: 45
-  m_StepOffset: 0.25
+  m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.76072, z: 0}
@@ -1396,6 +1398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimumY: -10
   resetRotation: 0
+  resetScale: 1
 --- !u!114 &3100557846533639361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3024,11 +3027,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 202364688}
     m_Modifications:
-    - target: {fileID: 6189354538098044173, guid: 2fd3e07afe5b461490fb8e314976b1b0,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6189354538098044173, guid: 2fd3e07afe5b461490fb8e314976b1b0,
         type: 3}
       propertyPath: m_LocalPosition.x
