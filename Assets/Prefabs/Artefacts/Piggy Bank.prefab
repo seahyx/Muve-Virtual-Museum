@@ -807,7 +807,8 @@ MonoBehaviour:
   maxImpactSoundVolume: 1
   minImpactRelativeVelocity: 1
   maxImpactRelativeVelocity: 6
-  cooldown: 0.1
+  audioPitch: 1
+  cooldown: 0.03
 --- !u!1 &7157679373568086041
 GameObject:
   m_ObjectHideFlags: 0

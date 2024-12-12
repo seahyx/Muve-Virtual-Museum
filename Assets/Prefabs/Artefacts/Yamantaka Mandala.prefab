@@ -198,7 +198,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2682967381712990507}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 30
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -553,10 +553,10 @@ MonoBehaviour:
     type: 3}
   impactSound: {fileID: 8300000, guid: 7aad5bdc63c899546a1956442377a365, type: 3}
   maxImpactSoundVolume: 1
-  minImpactRelativeVelocity: 1
+  minImpactRelativeVelocity: 0.5
   maxImpactRelativeVelocity: 6
-  audioPitch: 0.8
-  cooldown: 0.1
+  audioPitch: 0.3
+  cooldown: 0.03
 --- !u!1 &2752097331910552902
 GameObject:
   m_ObjectHideFlags: 0

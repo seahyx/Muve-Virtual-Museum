@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 2307612252405994987}
   - component: {fileID: 4583759656693689566}
   - component: {fileID: 4864857935409555652}
+  - component: {fileID: -4539474643256871093}
   m_Layer: 0
   m_Name: Moai Kava
   m_TagString: Untagged
@@ -132,7 +133,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910895340103982865}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -474,6 +475,26 @@ MonoBehaviour:
   - {fileID: 4443884527300149500}
   - {fileID: 759380811922950821}
   - {fileID: 239352048794897262}
+--- !u!114 &-4539474643256871093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910895340103982865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1219ac856dde2e044a9e3ca53f57a3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
+    type: 3}
+  impactSound: {fileID: 8300000, guid: cd2b5a4eab0b39b48baeecbb5743ec2c, type: 3}
+  maxImpactSoundVolume: 1
+  minImpactRelativeVelocity: 1
+  maxImpactRelativeVelocity: 6
+  audioPitch: 1
+  cooldown: 0.03
 --- !u!1 &1623832543218941418
 GameObject:
   m_ObjectHideFlags: 0

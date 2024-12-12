@@ -516,7 +516,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8358558446073717546}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -868,11 +868,11 @@ MonoBehaviour:
   impactParticlePrefab: {fileID: 570594986218860360, guid: 59947209673e2984f9f877c58c8eeaf4,
     type: 3}
   impactSound: {fileID: 8300000, guid: c353e678c2811b6408a7a245219e107a, type: 3}
-  maxImpactSoundVolume: 1
+  maxImpactSoundVolume: 0.2
   minImpactRelativeVelocity: 1
   maxImpactRelativeVelocity: 6
-  audioPitch: 1.5
-  cooldown: 0.1
+  audioPitch: 8
+  cooldown: 0.03
 --- !u!1 &8491021988486008122
 GameObject:
   m_ObjectHideFlags: 0

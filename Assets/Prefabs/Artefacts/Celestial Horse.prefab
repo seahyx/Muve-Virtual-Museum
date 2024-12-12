@@ -734,7 +734,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5911989764419730642}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 15
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1094,8 +1094,8 @@ MonoBehaviour:
   maxImpactSoundVolume: 1
   minImpactRelativeVelocity: 1
   maxImpactRelativeVelocity: 6
-  audioPitch: 0.75
-  cooldown: 0.1
+  audioPitch: 0.4
+  cooldown: 0.03
 --- !u!1 &7172917404684591921
 GameObject:
   m_ObjectHideFlags: 0
