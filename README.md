@@ -21,4 +21,4 @@ Our team decided to leverage virtual reality (VR) technology to create an _immer
 
 ## Demo
 
-![Muve-Demo-Video](./Media/Team_9_demo_video.mp4?raw=true)
+[![Demo Video](https://img.youtube.com/vi/-YmAyjGXNyQ/0.jpg)](https://www.youtube.com/watch?v=-YmAyjGXNyQ)
